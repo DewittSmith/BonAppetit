@@ -1,0 +1,33 @@
+{
+    "itemGroup.bonappetit.general": "Bon Appetit",
+
+    "block.bonappetit.halite_ore": "Галитовая руда",
+    "block.bonappetit.limestone": "Известняк",
+    "block.bonappetit.limestone_polished": "Полированный известняк",
+    "block.bonappetit.quartz_tiles": "Кварцевая плитка",
+    "block.bonappetit.salt_block": "Блок соли",
+    "block.bonappetit.butter_block": "Блок сливочного масла",
+    "block.bonappetit.cheese_block": "Блок сыра",
+
+    "item.bonappetit.salt": "Соль",
+    "item.bonappetit.cutting_board": "Разделочная доска",
+    "item.bonappetit.cooking_pan": "Сковорода",
+    "item.bonappetit.cooking_pot": "Кастрюля",
+    "item.bonappetit.cooking_bakeware": "Противень",
+    "item.bonappetit.juicer": "Соковыжималка",
+
+    "item.bonappetit.cream": "Сливки",
+    "item.bonappetit.butter": "Сливочное масло",
+    "item.bonappetit.cheese": "Сыр",
+    "item.bonappetit.cheese_croquettes": "Сырные крокеты",
+    "item.bonappetit.cheese_soup": "Сырный суп",
+    "item.bonappetit.carrot_grated": "Тёртая морковь",
+    "item.bonappetit.juice_apple": "Яблочный сок",
+    "item.bonappetit.juice_pumpkin": "Тыквенный сок",
+    "item.bonappetit.juice_carrot": "Морковный сок",
+    "item.bonappetit.juice_melon": "Арбузный сок",
+    "item.bonappetit.juice_berry": "Ягодный сок",
+
+    "item.bonappetit.music_disc_afternoon": "Пластинка"
+
+}
