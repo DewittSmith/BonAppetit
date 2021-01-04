@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "bonappetit",
+  "version": "${version}",
+
+  "name": "Bon Appetit Mod",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": [
+    "Glassy Nerds"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/bonappetit/logo_128x.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.bonappetit.BonAppetit"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
