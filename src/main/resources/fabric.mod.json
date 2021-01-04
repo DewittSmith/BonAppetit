@@ -3,15 +3,15 @@
   "id": "bonappetit",
   "version": "${version}",
 
-  "name": "Bon Appétit",
+  "name": "Bon Appetit",
   "description": "This mod turns your Minecraft world into cooking field! Sharpen your knives and get ready!",
   "authors": [
     "Disketaa",
     "DewittSmith"
   ],
   "contact": {
-    "homepage": "curseforge.com/minecraft/mc-mods/bon-appetit",
-    "sources": "github.com/DewittSmith/BonAppetit"
+    "homepage": "",
+    "sources": ""
   },
 
   "license": "CC0-1.0",
