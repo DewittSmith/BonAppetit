@@ -3,10 +3,11 @@
   "id": "bonappetit",
   "version": "${version}",
 
-  "name": "Bon Appetit Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Bon Appetit",
+  "description": "This mod turns your Minecraft world into cooking field! Sharpen your knives and get ready!",
   "authors": [
-    "Glassy Nerds"
+    "Disketaa",
+    "DewittSmith"
   ],
   "contact": {
     "homepage": "",
@@ -14,7 +15,7 @@
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/bonappetit/logo_128x.png",
+  "icon": "assets/bonappetit/icon.png",
 
   "environment": "*",
   "entrypoints": {

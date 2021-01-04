@@ -11,7 +11,7 @@ import net.minecraft.util.Identifier;
 public class BonAppetit implements ModInitializer
 {
     public static final String MOD_ID = "bonappetit";
-    public static final ItemGroup ITEM_GROUP = FabricItemGroupBuilder.build(new Identifier(MOD_ID,"general"), () -> new ItemStack(ModItems.Items[0].Item));
+    public static final ItemGroup ITEM_GROUP = FabricItemGroupBuilder.build(new Identifier(MOD_ID,"general"), () -> new ItemStack(ModItems.Items[1].Item));
 
     @Override
     public void onInitialize() 
