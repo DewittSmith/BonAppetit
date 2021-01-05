@@ -35,7 +35,7 @@ public class ModItems
             new SimpleItem("juice_berry", Registry.ITEM, new Item.Settings().group(BonAppetit.ITEM_GROUP).food(new FoodComponent.Builder().hunger(2).saturationModifier(0.25f).snack().build())),
 
             // #Miscs
-            new SimpleItem("music_disc_afternoon", Registry.ITEM, new Item.Settings().group(BonAppetit.ITEM_GROUP).rarity(Rarity.RARE)),
+            new SimpleItem("music_disc_afternoon", Registry.ITEM, new Item.Settings().group(BonAppetit.ITEM_GROUP).rarity(Rarity.RARE).maxCount(1)),
     };
 
     // Block Items
