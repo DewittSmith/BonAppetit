@@ -2,8 +2,7 @@
     "type": "minecraft:crafting_shaped",
     "pattern": [
         "12 ",
-        "3  ",
-        "   "
+        "3  "
     ],
     "key": {
         "1": {
