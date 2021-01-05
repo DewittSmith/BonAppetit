@@ -22,8 +22,8 @@ public class ModItems
             new SimpleItem("juicer", Registry.ITEM, new Item.Settings().group(BonAppetit.ITEM_GROUP).maxCount(1)),
 
             // #Food
-            new SimpleItem("cream", Registry.ITEM, new Item.Settings().group(BonAppetit.ITEM_GROUP).food(new FoodComponent.Builder().hunger(1).saturationModifier(0.075f).build())),
-            new SimpleItem("butter", Registry.ITEM, new Item.Settings().group(BonAppetit.ITEM_GROUP).food(new FoodComponent.Builder().hunger(2).saturationModifier(0.2f).build())),
+            new SimpleItem("cream", Registry.ITEM, new Item.Settings().group(BonAppetit.ITEM_GROUP)),
+            new SimpleItem("butter", Registry.ITEM, new Item.Settings().group(BonAppetit.ITEM_GROUP)),
             new SimpleItem("cheese", Registry.ITEM, new Item.Settings().group(BonAppetit.ITEM_GROUP).food(new FoodComponent.Builder().hunger(2).saturationModifier(0.4f).build())),
             new SimpleItem("cheese_croquettes", Registry.ITEM, new Item.Settings().group(BonAppetit.ITEM_GROUP).food(new FoodComponent.Builder().hunger(3).saturationModifier(0.4f).snack().build())),
             new SimpleItem("cheese_soup", Registry.ITEM, new Item.Settings().group(BonAppetit.ITEM_GROUP).food(new FoodComponent.Builder().hunger(4).saturationModifier(0.6f).build())),
@@ -42,24 +42,40 @@ public class ModItems
     public static final SimpleBlockItem[] BlockItems = new SimpleBlockItem[]
     {
             // #Building Blocks
-            new SimpleBlockItem("halite_ore", Registry.ITEM, ModBlocks.Blocks.get("HALITE_ORE").Block, new Item.Settings().group(BonAppetit.ITEM_GROUP)),
-            new SimpleBlockItem("limestone", Registry.ITEM, ModBlocks.Blocks.get("LIMESTONE").Block, new Item.Settings().group(BonAppetit.ITEM_GROUP)),
-            new SimpleBlockItem("limestone_stairs", Registry.ITEM, ModBlocks.Blocks.get("LIMESTONE_STAIRS").Block, new Item.Settings().group(BonAppetit.ITEM_GROUP)),
-            new SimpleBlockItem("limestone_wall", Registry.ITEM, ModBlocks.Blocks.get("LIMESTONE_WALL").Block, new Item.Settings().group(BonAppetit.ITEM_GROUP)),
-            new SimpleBlockItem("limestone_slab", Registry.ITEM, ModBlocks.Blocks.get("LIMESTONE_SLAB").Block, new Item.Settings().group(BonAppetit.ITEM_GROUP)),
-            new SimpleBlockItem("limestone_polished", Registry.ITEM, ModBlocks.Blocks.get("LIMESTONE_POLISHED").Block, new Item.Settings().group(BonAppetit.ITEM_GROUP)),
-            new SimpleBlockItem("limestone_polished_stairs", Registry.ITEM, ModBlocks.Blocks.get("LIMESTONE_POLISHED_STAIRS").Block, new Item.Settings().group(BonAppetit.ITEM_GROUP)),
-            new SimpleBlockItem("limestone_polished_slab", Registry.ITEM, ModBlocks.Blocks.get("LIMESTONE_POLISHED_SLAB").Block, new Item.Settings().group(BonAppetit.ITEM_GROUP)),
-            new SimpleBlockItem("quartz_tiles", Registry.ITEM, ModBlocks.Blocks.get("QUARTZ_TILES").Block, new Item.Settings().group(BonAppetit.ITEM_GROUP)),
-            new SimpleBlockItem("salt_block", Registry.ITEM, ModBlocks.Blocks.get("SALT_BLOCK").Block, new Item.Settings().group(BonAppetit.ITEM_GROUP)),
-            new SimpleBlockItem("butter_block", Registry.ITEM, ModBlocks.Blocks.get("BUTTER_BLOCK").Block, new Item.Settings().group(BonAppetit.ITEM_GROUP)),
-            new SimpleBlockItem("cheese_block", Registry.ITEM, ModBlocks.Blocks.get("CHEESE_BLOCK").Block, new Item.Settings().group(BonAppetit.ITEM_GROUP)),
+            new SimpleBlockItem("halite_ore", Registry.ITEM, ModBlocks.GetBlock("halite_ore"), new Item.Settings().group(BonAppetit.ITEM_GROUP)),
+            new SimpleBlockItem("limestone", Registry.ITEM, ModBlocks.GetBlock("limestone"), new Item.Settings().group(BonAppetit.ITEM_GROUP)),
+            new SimpleBlockItem("limestone_stairs", Registry.ITEM, ModBlocks.GetBlock("limestone_stairs"), new Item.Settings().group(BonAppetit.ITEM_GROUP)),
+            new SimpleBlockItem("limestone_wall", Registry.ITEM, ModBlocks.GetBlock("limestone_wall"), new Item.Settings().group(BonAppetit.ITEM_GROUP)),
+            new SimpleBlockItem("limestone_slab", Registry.ITEM, ModBlocks.GetBlock("limestone_slab"), new Item.Settings().group(BonAppetit.ITEM_GROUP)),
+            new SimpleBlockItem("limestone_polished", Registry.ITEM, ModBlocks.GetBlock("limestone_polished"), new Item.Settings().group(BonAppetit.ITEM_GROUP)),
+            new SimpleBlockItem("limestone_polished_stairs", Registry.ITEM, ModBlocks.GetBlock("limestone_polished_stairs"), new Item.Settings().group(BonAppetit.ITEM_GROUP)),
+            new SimpleBlockItem("limestone_polished_slab", Registry.ITEM, ModBlocks.GetBlock("limestone_polished_slab"), new Item.Settings().group(BonAppetit.ITEM_GROUP)),
+            new SimpleBlockItem("quartz_tiles", Registry.ITEM, ModBlocks.GetBlock("quartz_tiles"), new Item.Settings().group(BonAppetit.ITEM_GROUP)),
+            new SimpleBlockItem("salt_block", Registry.ITEM, ModBlocks.GetBlock("salt_block"), new Item.Settings().group(BonAppetit.ITEM_GROUP)),
+            new SimpleBlockItem("butter_block", Registry.ITEM, ModBlocks.GetBlock("butter_block"), new Item.Settings().group(BonAppetit.ITEM_GROUP)),
+            new SimpleBlockItem("cheese_block", Registry.ITEM, ModBlocks.GetBlock("cheese_block"), new Item.Settings().group(BonAppetit.ITEM_GROUP)),
     };
+
+    public static Item GetItem(String name)
+    {
+        for(SimpleItem i : Items)
+        {
+            if (i.Name == name)
+                return i.Item;
+        }
+
+        for(SimpleBlockItem i : BlockItems)
+        {
+            if (i.Name == name)
+                return i.BlockItem;
+        }
+        
+        return null;
+    }
 
     public static void registerItems()
     {
         for (SimpleBlockItem blockItem : BlockItems) Registry.register(blockItem.Registry, blockItem.Identifier, blockItem.BlockItem);
         for (SimpleItem item : Items) Registry.register(item.Registry, item.Identifier, item.Item);
-
     }
 }
