@@ -1,16 +1,15 @@
 {
     "type": "minecraft:crafting_shaped",
     "pattern": [
-        "11 ",
-        "11 "
+        "111"
     ],
     "key": {
         "1": {
-            "item": "bonappetit:butter"
+            "item": "bonappetit:limestone"
         }
     },
     "result": {
-        "item": "bonappetit:butter_block",
-        "count": 1
+        "item": "bonappetit:limestone_slab",
+        "count": 6
     }
 }

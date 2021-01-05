@@ -44,7 +44,12 @@ public class ModItems
             // #Building Blocks
             new SimpleBlockItem("halite_ore", Registry.ITEM, ModBlocks.Blocks.get("HALITE_ORE").Block, new Item.Settings().group(BonAppetit.ITEM_GROUP)),
             new SimpleBlockItem("limestone", Registry.ITEM, ModBlocks.Blocks.get("LIMESTONE").Block, new Item.Settings().group(BonAppetit.ITEM_GROUP)),
+            new SimpleBlockItem("limestone_stairs", Registry.ITEM, ModBlocks.Blocks.get("LIMESTONE_STAIRS").Block, new Item.Settings().group(BonAppetit.ITEM_GROUP)),
+            new SimpleBlockItem("limestone_wall", Registry.ITEM, ModBlocks.Blocks.get("LIMESTONE_WALL").Block, new Item.Settings().group(BonAppetit.ITEM_GROUP)),
+            new SimpleBlockItem("limestone_slab", Registry.ITEM, ModBlocks.Blocks.get("LIMESTONE_SLAB").Block, new Item.Settings().group(BonAppetit.ITEM_GROUP)),
             new SimpleBlockItem("limestone_polished", Registry.ITEM, ModBlocks.Blocks.get("LIMESTONE_POLISHED").Block, new Item.Settings().group(BonAppetit.ITEM_GROUP)),
+            new SimpleBlockItem("limestone_polished_stairs", Registry.ITEM, ModBlocks.Blocks.get("LIMESTONE_POLISHED_STAIRS").Block, new Item.Settings().group(BonAppetit.ITEM_GROUP)),
+            new SimpleBlockItem("limestone_polished_slab", Registry.ITEM, ModBlocks.Blocks.get("LIMESTONE_POLISHED_SLAB").Block, new Item.Settings().group(BonAppetit.ITEM_GROUP)),
             new SimpleBlockItem("quartz_tiles", Registry.ITEM, ModBlocks.Blocks.get("QUARTZ_TILES").Block, new Item.Settings().group(BonAppetit.ITEM_GROUP)),
             new SimpleBlockItem("salt_block", Registry.ITEM, ModBlocks.Blocks.get("SALT_BLOCK").Block, new Item.Settings().group(BonAppetit.ITEM_GROUP)),
             new SimpleBlockItem("butter_block", Registry.ITEM, ModBlocks.Blocks.get("BUTTER_BLOCK").Block, new Item.Settings().group(BonAppetit.ITEM_GROUP)),

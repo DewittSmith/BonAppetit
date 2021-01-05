@@ -3,7 +3,12 @@
 
     "block.bonappetit.halite_ore": "Halite Ore",
     "block.bonappetit.limestone": "Limestone",
+    "block.bonappetit.limestone_stairs": "Limestone Stairs",
+    "block.bonappetit.limestone_wall": "Limestone Wall",
+    "block.bonappetit.limestone_slab": "Limestone Slab",
     "block.bonappetit.limestone_polished": "Polished Limestone",
+    "block.bonappetit.limestone_polished_stairs": "Polished Limestone Stairs",
+    "block.bonappetit.limestone_polished_slab": "Polished Limestone Slab",
     "block.bonappetit.quartz_tiles": "Quartz Tiles",
     "block.bonappetit.salt_block": "Block of Salt",
     "block.bonappetit.butter_block": "Block of Butter",

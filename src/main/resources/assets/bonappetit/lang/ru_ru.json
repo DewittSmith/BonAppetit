@@ -3,7 +3,12 @@
 
     "block.bonappetit.halite_ore": "Галитовая руда",
     "block.bonappetit.limestone": "Известняк",
+    "block.bonappetit.limestone_stairs": "Известняковые ступеньки",
+    "block.bonappetit.limestone_wall": "Известняковая ограда",
+    "block.bonappetit.limestone_slab": "Известняковая плита",
     "block.bonappetit.limestone_polished": "Полированный известняк",
+    "block.bonappetit.limestone_polished_stairs": "Ступеньки из полированного известняка",
+    "block.bonappetit.limestone_polished_slab": "Плита из полированного известняка",
     "block.bonappetit.quartz_tiles": "Кварцевая плитка",
     "block.bonappetit.salt_block": "Блок соли",
     "block.bonappetit.butter_block": "Блок сливочного масла",
