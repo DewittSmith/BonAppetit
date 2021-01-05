@@ -19,8 +19,8 @@ public class ModOres {
         // #Halite ore
         new SimpleOre("ore_halite_overworld", Registry.CONFIGURED_FEATURE_WORLDGEN, 
             Feature.ORE
-                .configure(new OreFeatureConfig(OreFeatureConfig.Rules.BASE_STONE_OVERWORLD,ModBlocks.GetBlock("halite_ore").getDefaultState(),5))
-                .decorate(Decorator.RANGE.configure(new RangeDecoratorConfig(0,40,100)))
+                .configure(new OreFeatureConfig(OreFeatureConfig.Rules.BASE_STONE_OVERWORLD,ModBlocks.GetBlock("halite_ore").getDefaultState(),14))
+                .decorate(Decorator.RANGE.configure(new RangeDecoratorConfig(0,12,127)))
                 .spreadHorizontally()
                 .repeat(20)), 
     };

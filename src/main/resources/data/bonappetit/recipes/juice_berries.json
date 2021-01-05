@@ -2,21 +2,21 @@
     "type": "minecraft:crafting_shaped",
     "pattern": [
         "12 ",
-        "33 "
+        "3 "
     ],
     "key": {
         "1": {
-            "item": "bonappetit:juicer"
+            "item": "minecraft:sweet_berries"
         },
         "2": {
             "item": "minecraft:sugar"
         },
         "3": {
-            "item": "minecraft:sweet_berries"
+            "item": "bonappetit:juicer"
         }
     },
     "result": {
-        "item": "bonappetit:juice_berry",
+        "item": "bonappetit:juice_berries",
         "count": 1
     }
 }

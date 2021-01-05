@@ -2,17 +2,17 @@
     "type": "minecraft:crafting_shaped",
     "pattern": [
         "12 ",
-        "33 "
+        "3 "
     ],
     "key": {
         "1": {
-            "item": "bonappetit:juicer"
+            "item": "minecraft:melon_slice"
         },
         "2": {
             "item": "minecraft:sugar"
         },
         "3": {
-            "item": "minecraft:melon_slice"
+            "item": "bonappetit:juicer"
         }
     },
     "result": {

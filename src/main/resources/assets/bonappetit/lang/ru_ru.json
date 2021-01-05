@@ -4,8 +4,8 @@
     "block.bonappetit.halite_ore": "Галитовая руда",
     "block.bonappetit.limestone": "Известняк",
     "block.bonappetit.limestone_stairs": "Известняковые ступеньки",
-    "block.bonappetit.limestone_wall": "Известняковая ограда",
     "block.bonappetit.limestone_slab": "Известняковая плита",
+    "block.bonappetit.limestone_wall": "Известняковая ограда",
     "block.bonappetit.limestone_polished": "Полированный известняк",
     "block.bonappetit.limestone_polished_stairs": "Ступеньки из полированного известняка",
     "block.bonappetit.limestone_polished_slab": "Плита из полированного известняка",
@@ -31,7 +31,7 @@
     "item.bonappetit.juice_pumpkin": "Тыквенный сок",
     "item.bonappetit.juice_carrot": "Морковный сок",
     "item.bonappetit.juice_melon": "Арбузный сок",
-    "item.bonappetit.juice_berry": "Ягодный сок",
+    "item.bonappetit.juice_berries": "Ягодный сок",
 
     "item.bonappetit.music_disc_afternoon": "Пластинка"
 
