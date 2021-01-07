@@ -16,13 +16,21 @@ import net.minecraft.world.gen.feature.OreFeatureConfig;
 public class ModOres {
     private static SimpleOre[] Ores = new SimpleOre[]
     {   
-        // #Halite ore
-        new SimpleOre("ore_halite_overworld", Registry.CONFIGURED_FEATURE_WORLDGEN, 
-            Feature.ORE
-                .configure(new OreFeatureConfig(OreFeatureConfig.Rules.BASE_STONE_OVERWORLD,ModBlocks.GetBlock("halite_ore").getDefaultState(),14))
-                .decorate(Decorator.RANGE.configure(new RangeDecoratorConfig(0,12,127)))
-                .spreadHorizontally()
-                .repeat(20)), 
+        // #Halite Ore
+                new SimpleOre("ore_halite_overworld", Registry.CONFIGURED_FEATURE_WORLDGEN,
+                    Feature.ORE
+                            .configure(new OreFeatureConfig(OreFeatureConfig.Rules.BASE_STONE_OVERWORLD,ModBlocks.GetBlock("halite_ore").getDefaultState(),14))
+                            .decorate(Decorator.RANGE.configure(new RangeDecoratorConfig(0,12,127)))
+                            .spreadHorizontally()
+                            .repeat(20)),
+
+        // #Limestone
+                new SimpleOre("limestone_overworld", Registry.CONFIGURED_FEATURE_WORLDGEN,
+                    Feature.ORE
+                            .configure(new OreFeatureConfig(OreFeatureConfig.Rules.BASE_STONE_OVERWORLD,ModBlocks.GetBlock("limestone").getDefaultState(),33))
+                            .decorate(Decorator.RANGE.configure(new RangeDecoratorConfig(0,0,79)))
+                            .spreadHorizontally()
+                            .repeat(10)),
     };
 
     public static void registerOres()

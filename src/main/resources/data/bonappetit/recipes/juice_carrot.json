@@ -2,11 +2,11 @@
     "type": "minecraft:crafting_shaped",
     "pattern": [
         "12 ",
-        "3 "
+        "3  "
     ],
     "key": {
         "1": {
-            "item": "minecraft:carort"
+            "item": "minecraft:carrot"
         },
         "2": {
             "item": "minecraft:sugar"

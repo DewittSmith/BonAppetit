@@ -2,21 +2,24 @@
     "type": "minecraft:crafting_shaped",
     "pattern": [
         "12 ",
-        "3  "
+        "34 "
     ],
     "key": {
         "1": {
-            "item": "minecraft:sugar"
+            "item": "bonappetit:salt"
         },
         "2": {
-            "item": "minecraft:carrot"
+            "item": "bonappetit:leek"
         },
         "3": {
             "item": "bonappetit:cutting_board"
+        },
+        "4": {
+            "item": "minecraft:carrot"
         }
     },
     "result": {
-        "item": "bonappetit:carrot_grated",
+        "item": "bonappetit:carrot_salad",
         "count": 1
     }
 }
