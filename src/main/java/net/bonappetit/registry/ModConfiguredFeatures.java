@@ -19,8 +19,8 @@ public class ModConfiguredFeatures {
     .repeat(10);
 
     public static final ConfiguredFeature<?, ?> ORE_HALITE = Feature.ORE
-        .configure(new OreFeatureConfig(IN_LIMESTONE, ModBlocks.HALITE_ORE.getDefaultState(), 14))
-        .decorate(Decorator.RANGE.configure(new RangeDecoratorConfig(0, 12, 127)))
+        .configure(new OreFeatureConfig(IN_LIMESTONE, ModBlocks.HALITE_ORE.getDefaultState(), 16))
+        .decorate(Decorator.RANGE.configure(new RangeDecoratorConfig(0, 12, 79)))
         .spreadHorizontally()
-        .repeat(20);
+        .repeat(24);
 }

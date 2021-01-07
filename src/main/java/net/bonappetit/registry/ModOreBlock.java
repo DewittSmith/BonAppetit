@@ -18,7 +18,7 @@ public class ModOreBlock extends Block {
     
     protected int getExperienceWhenMined(Random random) {
         if (this == ModBlocks.HALITE_ORE) {
-            return MathHelper.nextInt(random, 1, 3);
+            return MathHelper.nextInt(random, 0, 1);
         } else {
             return 0;
         }

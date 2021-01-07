@@ -1,0 +1,25 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "122",
+        "34 "
+    ],
+    "key": {
+        "1": {
+            "item": "bonappetit:salt"
+        },
+        "2": {
+            "item": "bonappetit:onion"
+        },
+        "3": {
+            "item": "bonappetit:cooking_pot"
+        },
+        "4": {
+            "item": "bonappetit:butter"
+        }
+    },
+    "result": {
+        "item": "bonappetit:onion_soup",
+        "count": 1
+    }
+}

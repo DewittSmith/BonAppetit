@@ -23,11 +23,14 @@
     "item.bonappetit.juicer": "Соковыжималка",
 
     "item.bonappetit.leek": "Лук-порей",
+    "item.bonappetit.onion": "Лук",
+    "item.bonappetit.garlic": "Чеснок",
     "item.bonappetit.cream": "Сливки",
     "item.bonappetit.butter": "Сливочное масло",
     "item.bonappetit.cheese": "Сыр",
     "item.bonappetit.cheese_croquettes": "Сырные крокеты",
     "item.bonappetit.cheese_soup": "Сырный суп",
+    "item.bonappetit.onion_soup": "Луковый суп",
     "item.bonappetit.carrot_salad": "Морковный салат",
     "item.bonappetit.juice_apple": "Яблочный сок",
     "item.bonappetit.juice_pumpkin": "Тыквенный сок",
@@ -35,6 +38,7 @@
     "item.bonappetit.juice_melon": "Арбузный сок",
     "item.bonappetit.juice_berries": "Ягодный сок",
 
-    "item.bonappetit.music_disc_afternoon": "Пластинка"
+    "item.bonappetit.music_disc_afternoon": "Пластинка",
+    "item.bonappetit.music_disc_afternoon.desc": "Дискетаа - Afternoon"
 
 }
