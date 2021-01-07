@@ -1,20 +1,17 @@
 package net.bonappetit.registry;
 
 import net.bonappetit.BonAppetit;
-import net.bonappetit.SimpleBlockItem;
-import net.bonappetit.SimpleItem;
-import net.minecraft.entity.effect.StatusEffect;
-import net.minecraft.entity.effect.StatusEffectInstance;
-import net.minecraft.entity.effect.StatusEffects;
+import net.minecraft.util.Identifier;
 import net.minecraft.util.Rarity;
 import net.minecraft.util.registry.Registry;
-import net.minecraft.item.FoodComponent;
+import net.minecraft.block.Block;
+import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 
 public class ModItems 
 {
     // Items
-    public static final SimpleItem[] Items = new SimpleItem[]
+    /*public static final SimpleItem[] Items = new SimpleItem[]
     {
             // #Items
             new SimpleItem("salt", Registry.ITEM, new Item.Settings().group(BonAppetit.ITEM_GROUP)),
@@ -59,28 +56,43 @@ public class ModItems
             new SimpleBlockItem("salt_block", Registry.ITEM, ModBlocks.GetBlock("salt_block"), new Item.Settings().group(BonAppetit.ITEM_GROUP)),
             new SimpleBlockItem("butter_block", Registry.ITEM, ModBlocks.GetBlock("butter_block"), new Item.Settings().group(BonAppetit.ITEM_GROUP)),
             new SimpleBlockItem("cheese_block", Registry.ITEM, ModBlocks.GetBlock("cheese_block"), new Item.Settings().group(BonAppetit.ITEM_GROUP)),
-    };
+    };*/
 
-    public static Item GetItem(String name)
-    {
-        for(SimpleItem i : Items)
-        {
-            if (i.Name == name)
-                return i.Item;
-        }
+    public static final Item JUICER = register("juicer", new CookingItem(new Item.Settings().group(BonAppetit.ITEM_GROUP).maxCount(1)));
 
-        for(SimpleBlockItem i : BlockItems)
-        {
-            if (i.Name == name)
-                return i.BlockItem;
-        }
-        
-        return null;
+    public static final Item SALT = register("salt", new Item(new Item.Settings().group(BonAppetit.ITEM_GROUP)));
+    public static final Item CHEESE = register("cheese", new Item(new Item.Settings().group(BonAppetit.ITEM_GROUP).food(ModFoodComponents.CHEESE)));
+    
+    public static final Item JUICE_APPLE = register("juice_apple", new JuiceItem(new Item.Settings().recipeRemainder(JUICER).food(ModFoodComponents.JUICE_APPLE).group(BonAppetit.ITEM_GROUP)));
+
+    public static final Item MUSIC_DISC_AFTERNOON = register("music_disc_afternoon", new DiscItem(0, ModSoundEvents.SOUND_AFTERNOON, new Item.Settings().maxCount(1).group(BonAppetit.ITEM_GROUP).rarity(Rarity.RARE)));
+
+    public static final Item HALITE_ORE = register(ModBlocks.HALITE_ORE);
+
+    public static final Item LIMESTONE = register(ModBlocks.LIMESTONE);
+    public static final Item LIMESTONE_WALL = register(ModBlocks.LIMESTONE_WALL);
+
+    public static final Item LIMESTONE_POLISHED = register(ModBlocks.LIMESTONE_POLISHED);
+    public static final Item LIMESTONE_POLISHED_SLAB = register(ModBlocks.LIMESTONE_POLISHED_SLAB);
+    public static final Item LIMESTONE_POLISHED_STAIRS = register(ModBlocks.LIMESTONE_POLISHED_STAIRS);
+    
+    private static Item register(Block block) {
+        return register(new BlockItem(block, new Item.Settings().group(BonAppetit.ITEM_GROUP)));
     }
 
-    public static void registerItems()
-    {
-        for (SimpleBlockItem blockItem : BlockItems) Registry.register(blockItem.Registry, blockItem.Identifier, blockItem.BlockItem);
-        for (SimpleItem item : Items) Registry.register(item.Registry, item.Identifier, item.Item);
+    private static Item register(BlockItem item) {
+        return register((Block)item.getBlock(), (Item)item);
+    }
+  
+    protected static Item register(Block block, Item item) {
+        return register(Registry.BLOCK.getId(block), item);
+    }
+
+    private static Item register(String id, Item item) {
+        return register(new Identifier(BonAppetit.MOD_ID, id), item);
+    }
+    
+    private static Item register(Identifier id, Item item) {
+       return (Item)Registry.register(Registry.ITEM, id, item);
     }
 }

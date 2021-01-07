@@ -12,14 +12,17 @@ import net.minecraft.util.Identifier;
 public class BonAppetit implements ModInitializer
 {
     public static final String MOD_ID = "bonappetit";
-    public static final ItemGroup ITEM_GROUP = FabricItemGroupBuilder.build(new Identifier(MOD_ID,"general"), () -> new ItemStack(ModItems.GetItem("cooking_mortar_and_pestle")));
+
+    public static final ItemGroup ITEM_GROUP = FabricItemGroupBuilder.build(new Identifier(MOD_ID,"general"), () -> new ItemStack(ModItems.SALT));
+
+    public static final ModBlocks MOD_BLOCKS = new ModBlocks();
+    public static final ModItems MOD_ITEMS = new ModItems();
+    public static final ModOres MOD_ORES = new ModOres();
 
     @Override
     public void onInitialize() 
     {
-        ModItems.registerItems();
-        ModBlocks.registerBlocks();
-        ModOres.registerOres();
+
     }
 }
 

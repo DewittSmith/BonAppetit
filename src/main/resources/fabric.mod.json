@@ -24,6 +24,7 @@
     ]
   },
   "mixins": [
+    "bonappetit.mixins.json"
   ],
 
   "depends": {
