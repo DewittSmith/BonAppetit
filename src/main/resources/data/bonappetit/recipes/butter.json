@@ -1,17 +1,16 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "11 ",
-        "2  "
-    ],
-    "key": {
-        "1": {
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "bonappetit:cream"
+        },
+        {
             "item": "bonappetit:salt"
         },
-        "2": {
-            "item": "bonappetit:cream"
+        {
+            "item": "bonappetit:salt"
         }
-    },
+    ],
     "result": {
         "item": "bonappetit:butter",
         "count": 1

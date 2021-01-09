@@ -5,7 +5,7 @@
             "item": "bonappetit:salt"
         },
         {
-            "item": "bonappetit:cheese"
+            "item": "minecraft:egg"
         },
         {
             "item": "minecraft:egg"
@@ -18,7 +18,7 @@
         }
     ],
     "result": {
-        "item": "bonappetit:cheese_croquettes",
+        "item": "bonappetit:fried_egg",
         "count": 2
     }
 }

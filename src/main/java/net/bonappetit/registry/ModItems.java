@@ -37,6 +37,7 @@ public class ModItems
     public static final Item SALT = register("salt", new Item(new Item.Settings().group(BonAppetit.ITEM_GROUP)));
     public static final Item CREAM = register("cream", new Item(new Item.Settings().group(BonAppetit.ITEM_GROUP)));
     public static final Item BUTTER = register("butter", new Item(new Item.Settings().group(BonAppetit.ITEM_GROUP)));
+    public static final Item FLOUR = register("flour", new Item(new Item.Settings().group(BonAppetit.ITEM_GROUP)));
     //  ~COOKING TOOLS~
     public static final Item CUTTING_BOARD = register("cutting_board", new CookingItem(new Item.Settings().group(BonAppetit.ITEM_GROUP).maxCount(1)));
     public static final Item PAN = register("cooking_pan", new CookingItem(new Item.Settings().group(BonAppetit.ITEM_GROUP).maxCount(1)));
@@ -53,6 +54,7 @@ public class ModItems
     public static final Item CHEESE_SOUP = register("cheese_soup", new Item(new Item.Settings().group(BonAppetit.ITEM_GROUP).food(ModFoodComponents.CHEESE_SOUP)));
     public static final Item ONION_SOUP = register("onion_soup", new Item(new Item.Settings().group(BonAppetit.ITEM_GROUP).food(ModFoodComponents.ONION_SOUP)));
     public static final Item CARROT_SALAD = register("carrot_salad", new Item(new Item.Settings().group(BonAppetit.ITEM_GROUP).food(ModFoodComponents.CARROT_SALAD)));
+    public static final Item FRIED_EGG = register("fried_egg", new Item(new Item.Settings().group(BonAppetit.ITEM_GROUP).food(ModFoodComponents.FRIED_EGG)));
     //  ~DRINKS~
     public static final Item JUICE_APPLE = register("juice_apple", new JuiceItem(new Item.Settings().recipeRemainder(JUICER).food(ModFoodComponents.JUICE_APPLE).group(BonAppetit.ITEM_GROUP)));
     public static final Item JUICE_PUMPKIN = register("juice_pumpkin", new JuiceItem(new Item.Settings().recipeRemainder(JUICER).food(ModFoodComponents.JUICE_PUMPKIN).group(BonAppetit.ITEM_GROUP)));

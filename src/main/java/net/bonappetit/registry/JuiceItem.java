@@ -13,7 +13,7 @@ public class JuiceItem extends Item {
     }
     
     public int getMaxUseTime(ItemStack stack) {
-        return 32;
+        return 24;
     }
   
     public UseAction getUseAction(ItemStack stack) {

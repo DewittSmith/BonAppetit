@@ -1,23 +1,19 @@
 {
-    "type": "minecraft:crafting_shaped",
-    "pattern": [
-        "12 ",
-        "34 "
-    ],
-    "key": {
-        "1": {
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
             "item": "bonappetit:salt"
         },
-        "2": {
+        {
             "item": "bonappetit:cheese"
         },
-        "3": {
-            "item": "bonappetit:cooking_pot"
-        },
-        "4": {
+        {
             "item": "bonappetit:butter"
+        },
+        {
+            "item": "bonappetit:cooking_pot"
         }
-    },
+    ],
     "result": {
         "item": "bonappetit:cheese_soup",
         "count": 1
