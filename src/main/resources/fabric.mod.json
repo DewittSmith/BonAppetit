@@ -11,7 +11,7 @@
   ],
   "contact": {
     "homepage": "curseforge.com/minecraft/mc-mods/bon-appetit",
-    "sources": "github.com/DewittSmith/BonAppetit"
+    "issues": "github.com/DewittSmith/BonAppetit/issues"
   },
 
   "license": "CC0-1.0",
