@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "bonappetit:salt"
+        },
+        {
+            "item": "minecraft:sugar"
+        },
+        {
+            "item": "minecraft:egg"
+        },
+        {
+            "item": "bonappetit:flour"
+        }
+    ],
+    "result": {
+        "item": "bonappetit:dough",
+        "count": 2
+    }
+}

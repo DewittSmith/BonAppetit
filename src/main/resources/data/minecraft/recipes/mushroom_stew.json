@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "bonappetit:salt"
+    },
+    {
+      "tag": "minecraft:mushrooms"
+    },
+    {
+      "tag": "minecraft:mushrooms"
+    },
+    {
+      "item": "bonappetit:cooking_pot"
+    },
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "bonappetit:butter"
+    }
+  ],
+  "result": {
+    "item": "minecraft:mushroom_stew"
+  }
+}

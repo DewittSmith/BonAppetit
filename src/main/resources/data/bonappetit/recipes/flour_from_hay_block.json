@@ -5,11 +5,11 @@
             "item": "bonappetit:cooking_mortar_and_pestle"
         },
         {
-            "item": "minecraft:wheat"
+            "item": "minecraft:hay_block"
         }
     ],
     "result": {
         "item": "bonappetit:flour",
-        "count": 1
+        "count": 9
     }
 }

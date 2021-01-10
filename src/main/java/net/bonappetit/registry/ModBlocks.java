@@ -19,8 +19,8 @@ public class ModBlocks {
     public static final Block LIMESTONE_SLAB = register("limestone_slab", new SlabBlock(AbstractBlock.Settings.copy(LIMESTONE)));
     public static final Block LIMESTONE_WALL = register("limestone_wall", new WallBlock(AbstractBlock.Settings.copy(LIMESTONE)));
     public static final Block LIMESTONE_POLISHED = register("limestone_polished", new Block(FabricBlockSettings.of(Material.STONE).breakByTool(FabricToolTags.PICKAXES, 0).requiresTool().strength(1.75f, 4f).sounds(BlockSoundGroup.NETHERRACK)));
-    public static final Block LIMESTONE_POLISHED_SLAB = register("limestone_polished_slab", new SlabBlock(AbstractBlock.Settings.copy(LIMESTONE_POLISHED)));
     public static final Block LIMESTONE_POLISHED_STAIRS = register("limestone_polished_stairs", new StairBlock(LIMESTONE_POLISHED.getDefaultState(), AbstractBlock.Settings.copy(LIMESTONE_POLISHED)));
+    public static final Block LIMESTONE_POLISHED_SLAB = register("limestone_polished_slab", new SlabBlock(AbstractBlock.Settings.copy(LIMESTONE_POLISHED)));
     public static final Block QUARTZ_TILES = register("quartz_tiles", new Block(FabricBlockSettings.of(Material.STONE).breakByTool(FabricToolTags.PICKAXES, 0).requiresTool().strength(2f, 6f).sounds(BlockSoundGroup.STONE)));
     public static final Block SALT_BLOCK = register("salt_block", new Block(FabricBlockSettings.of(Material.STONE).breakByTool(FabricToolTags.PICKAXES, 0).requiresTool().strength(2f, 4f).sounds(BlockSoundGroup.NETHERRACK)));
     public static final Block BUTTER_BLOCK = register("butter_block", new Block(FabricBlockSettings.of(Material.SOLID_ORGANIC).breakByTool(FabricToolTags.HOES, 0).strength(0.25f, 0.25f).slipperiness(0.9f).sounds(BlockSoundGroup.HONEY)));

@@ -27,8 +27,8 @@ public class ModItems
     public static final Item LIMESTONE_SLAB = register(ModBlocks.LIMESTONE_SLAB);
     public static final Item LIMESTONE_WALL = register(ModBlocks.LIMESTONE_WALL);
     public static final Item LIMESTONE_POLISHED = register(ModBlocks.LIMESTONE_POLISHED);
-    public static final Item LIMESTONE_POLISHED_SLAB = register(ModBlocks.LIMESTONE_POLISHED_SLAB);
     public static final Item LIMESTONE_POLISHED_STAIRS = register(ModBlocks.LIMESTONE_POLISHED_STAIRS);
+    public static final Item LIMESTONE_POLISHED_SLAB = register(ModBlocks.LIMESTONE_POLISHED_SLAB);
     public static final Item QUARTZ_TILES = register(ModBlocks.QUARTZ_TILES);
     public static final Item SALT_BLOCK = register(ModBlocks.SALT_BLOCK);
     public static final Item BUTTER_BLOCK = register(ModBlocks.BUTTER_BLOCK);
@@ -38,6 +38,7 @@ public class ModItems
     public static final Item CREAM = register("cream", new Item(new Item.Settings().group(BonAppetit.ITEM_GROUP)));
     public static final Item BUTTER = register("butter", new Item(new Item.Settings().group(BonAppetit.ITEM_GROUP)));
     public static final Item FLOUR = register("flour", new Item(new Item.Settings().group(BonAppetit.ITEM_GROUP)));
+    public static final Item DOUGH = register("dough", new Item(new Item.Settings().group(BonAppetit.ITEM_GROUP)));
     //  ~COOKING TOOLS~
     public static final Item CUTTING_BOARD = register("cutting_board", new CookingItem(new Item.Settings().group(BonAppetit.ITEM_GROUP).maxCount(1)));
     public static final Item PAN = register("cooking_pan", new CookingItem(new Item.Settings().group(BonAppetit.ITEM_GROUP).maxCount(1)));
@@ -50,10 +51,11 @@ public class ModItems
     public static final Item ONION = register("onion", new Item(new Item.Settings().group(BonAppetit.ITEM_GROUP).food(ModFoodComponents.ONION)));
     public static final Item GARLIC = register("garlic", new Item(new Item.Settings().group(BonAppetit.ITEM_GROUP).food(ModFoodComponents.GARLIC)));
     public static final Item CHEESE = register("cheese", new Item(new Item.Settings().group(BonAppetit.ITEM_GROUP).food(ModFoodComponents.CHEESE)));
-    public static final Item CHEESE_CROQUETTES = register("cheese_croquettes", new Item(new Item.Settings().group(BonAppetit.ITEM_GROUP).food(ModFoodComponents.CHEESE_CROQUETTES)));
     public static final Item CHEESE_SOUP = register("cheese_soup", new Item(new Item.Settings().group(BonAppetit.ITEM_GROUP).food(ModFoodComponents.CHEESE_SOUP)));
     public static final Item ONION_SOUP = register("onion_soup", new Item(new Item.Settings().group(BonAppetit.ITEM_GROUP).food(ModFoodComponents.ONION_SOUP)));
     public static final Item CARROT_SALAD = register("carrot_salad", new Item(new Item.Settings().group(BonAppetit.ITEM_GROUP).food(ModFoodComponents.CARROT_SALAD)));
+    public static final Item CHEESE_CROQUETTES = register("cheese_croquettes", new Item(new Item.Settings().group(BonAppetit.ITEM_GROUP).food(ModFoodComponents.CHEESE_CROQUETTES)));
+    public static final Item PANCAKES = register("pancakes", new Item(new Item.Settings().group(BonAppetit.ITEM_GROUP).food(ModFoodComponents.PANCAKES)));
     public static final Item FRIED_EGG = register("fried_egg", new Item(new Item.Settings().group(BonAppetit.ITEM_GROUP).food(ModFoodComponents.FRIED_EGG)));
     //  ~DRINKS~
     public static final Item JUICE_APPLE = register("juice_apple", new JuiceItem(new Item.Settings().recipeRemainder(JUICER).food(ModFoodComponents.JUICE_APPLE).group(BonAppetit.ITEM_GROUP)));
