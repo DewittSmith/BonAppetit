@@ -48,6 +48,7 @@ public class ModItems
     public static final Item DOUGH = register("dough", new Item(new Item.Settings().group(BonAppetit.ITEM_GROUP)));
     //  ~FOOD~
     public static final Item LEEK = register("leek", new Item(new Item.Settings().group(BonAppetit.ITEM_GROUP).food(ModFoodComponents.LEEK)));
+    public static final Item TOMATO = register("tomato", new Item(new Item.Settings().group(BonAppetit.ITEM_GROUP).food(ModFoodComponents.TOMATO)));
     public static final Item ONION = register("onion", new Item(new Item.Settings().group(BonAppetit.ITEM_GROUP).food(ModFoodComponents.ONION)));
     public static final Item GARLIC = register("garlic", new Item(new Item.Settings().group(BonAppetit.ITEM_GROUP).food(ModFoodComponents.GARLIC)));
     public static final Item CHEESE = register("cheese", new Item(new Item.Settings().group(BonAppetit.ITEM_GROUP).food(ModFoodComponents.CHEESE)));
