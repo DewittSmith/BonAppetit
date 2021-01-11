@@ -4,9 +4,9 @@
   "package": "net.bonappetit.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
+    "ItemRemainderAccessor"
   ],
   "client": [
-    "ItemRemainderAccessor"
   ],
   "injectors": {
     "defaultRequire": 1

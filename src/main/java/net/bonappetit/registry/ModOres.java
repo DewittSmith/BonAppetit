@@ -24,4 +24,6 @@ public class ModOres {
         Registry.register(BuiltinRegistries.CONFIGURED_FEATURE, oreKey.getValue(), ore);
         return oreKey;
     }
+
+    public static void init() { }
 }

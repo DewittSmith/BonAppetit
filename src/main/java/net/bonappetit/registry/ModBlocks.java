@@ -30,4 +30,6 @@ public class ModBlocks {
         Identifier identifier = new Identifier(BonAppetit.MOD_ID, id);
         return (Block)Registry.register(Registry.BLOCK, identifier, block);
     }
+
+    public static void init() { }
 }

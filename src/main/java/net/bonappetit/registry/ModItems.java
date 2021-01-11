@@ -1,4 +1,5 @@
 package net.bonappetit.registry;
+
 import net.bonappetit.BonAppetit;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
@@ -9,17 +10,6 @@ import net.minecraft.util.registry.Registry;
 
 public class ModItems 
 {
-    // Items
-    /*public static final SimpleItem[] Items = new SimpleItem[]
-    {
-    // Block Items
-    public static final SimpleBlockItem[] BlockItems = new SimpleBlockItem[]
-    {
-            // #Building Blocks
-            new SimpleBlockItem("salt_block", Registry.ITEM, ModBlocks.GetBlock("salt_block"), new Item.Settings().group(BonAppetit.ITEM_GROUP)),
-            new SimpleBlockItem("butter_block", Registry.ITEM, ModBlocks.GetBlock("butter_block"), new Item.Settings().group(BonAppetit.ITEM_GROUP)),
-            new SimpleBlockItem("cheese_block", Registry.ITEM, ModBlocks.GetBlock("cheese_block"), new Item.Settings().group(BonAppetit.ITEM_GROUP)),
-    };*/
     // ~BLOCKS~
     public static final Item HALITE_ORE = register(ModBlocks.HALITE_ORE);
     public static final Item LIMESTONE = register(ModBlocks.LIMESTONE);
@@ -68,7 +58,6 @@ public class ModItems
     public static final Item MUSIC_DISC_AFTERNOON = register("music_disc_afternoon", new DiscItem(0, ModSoundEvents.SOUND_AFTERNOON, new Item.Settings().maxCount(1).group(BonAppetit.ITEM_GROUP).rarity(Rarity.RARE)));
 
 
-
     private static Item register(Block block) {
         return register(new BlockItem(block, new Item.Settings().group(BonAppetit.ITEM_GROUP)));
     }
@@ -88,4 +77,6 @@ public class ModItems
     private static Item register(Identifier id, Item item) {
        return (Item)Registry.register(Registry.ITEM, id, item);
     }
+
+    public static void init() { }
 }
