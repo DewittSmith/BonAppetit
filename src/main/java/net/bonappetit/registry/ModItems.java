@@ -37,10 +37,10 @@ public class ModItems
     public static final Item FLOUR = register("flour", new Item(new Item.Settings().group(BonAppetit.ITEM_GROUP)));
     public static final Item DOUGH = register("dough", new Item(new Item.Settings().group(BonAppetit.ITEM_GROUP)));
     //  ~FOOD~
-    public static final Item LEEK = register("leek", new Item(new Item.Settings().group(BonAppetit.ITEM_GROUP).food(ModFoodComponents.LEEK)));
-    public static final Item TOMATO = register("tomato", new Item(new Item.Settings().group(BonAppetit.ITEM_GROUP).food(ModFoodComponents.TOMATO)));
-    public static final Item ONION = register("onion", new Item(new Item.Settings().group(BonAppetit.ITEM_GROUP).food(ModFoodComponents.ONION)));
-    public static final Item GARLIC = register("garlic", new Item(new Item.Settings().group(BonAppetit.ITEM_GROUP).food(ModFoodComponents.GARLIC)));
+    public static final Item LEEK = register("leek", new CompostableItem(new Item.Settings().group(BonAppetit.ITEM_GROUP).food(ModFoodComponents.LEEK), 0.65F));
+    public static final Item TOMATO = register("tomato", new CompostableItem(new Item.Settings().group(BonAppetit.ITEM_GROUP).food(ModFoodComponents.TOMATO), 0.65F));
+    public static final Item ONION = register("onion", new CompostableItem(new Item.Settings().group(BonAppetit.ITEM_GROUP).food(ModFoodComponents.ONION), 0.65F));
+    public static final Item GARLIC = register("garlic", new CompostableItem(new Item.Settings().group(BonAppetit.ITEM_GROUP).food(ModFoodComponents.GARLIC), 0.65F));
     public static final Item CHEESE = register("cheese", new Item(new Item.Settings().group(BonAppetit.ITEM_GROUP).food(ModFoodComponents.CHEESE)));
     public static final Item CHEESE_CROQUETTES = register("cheese_croquettes", new Item(new Item.Settings().group(BonAppetit.ITEM_GROUP).food(ModFoodComponents.CHEESE_CROQUETTES)));
     public static final Item PANCAKES = register("pancakes", new Item(new Item.Settings().group(BonAppetit.ITEM_GROUP).food(ModFoodComponents.PANCAKES)));
@@ -57,6 +57,7 @@ public class ModItems
     //  ~MISC~
     public static final Item MUSIC_DISC_AFTERNOON = register("music_disc_afternoon", new DiscItem(0, ModSoundEvents.SOUND_AFTERNOON, new Item.Settings().maxCount(1).group(BonAppetit.ITEM_GROUP).rarity(Rarity.RARE)));
 
+    // WHEAT_SEEDS = register((String)"wheat_seeds", (Item)(new AliasedBlockItem(Blocks.WHEAT, (new Item.Settings()).group(ItemGroup.MATERIALS))));
 
     private static Item register(Block block) {
         return register(new BlockItem(block, new Item.Settings().group(BonAppetit.ITEM_GROUP)));
