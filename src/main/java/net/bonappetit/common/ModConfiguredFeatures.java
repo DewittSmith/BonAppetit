@@ -1,5 +1,6 @@
-package net.bonappetit.registry;
+package net.bonappetit.common;
 
+import net.bonappetit.registry.ModBlocks;
 import net.minecraft.structure.rule.BlockMatchRuleTest;
 import net.minecraft.structure.rule.RuleTest;
 import net.minecraft.world.gen.decorator.Decorator;

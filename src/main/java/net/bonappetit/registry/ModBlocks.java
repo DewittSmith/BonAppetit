@@ -1,6 +1,8 @@
 package net.bonappetit.registry;
 
 import net.bonappetit.BonAppetit;
+import net.bonappetit.common.ModOreBlock;
+import net.bonappetit.common.StairBlock;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.fabricmc.fabric.api.tool.attribute.v1.FabricToolTags;
 import net.minecraft.block.AbstractBlock;

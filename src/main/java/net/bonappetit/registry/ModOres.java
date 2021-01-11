@@ -1,6 +1,7 @@
 package net.bonappetit.registry;
 
 import net.bonappetit.BonAppetit;
+import net.bonappetit.common.ModConfiguredFeatures;
 import net.fabricmc.fabric.api.biome.v1.BiomeModifications;
 import net.fabricmc.fabric.api.biome.v1.BiomeSelectors;
 import net.minecraft.util.Identifier;

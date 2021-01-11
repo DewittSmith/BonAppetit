@@ -1,6 +1,12 @@
 package net.bonappetit.registry;
 
 import net.bonappetit.BonAppetit;
+import net.bonappetit.common.CompostableItem;
+import net.bonappetit.common.CookingItem;
+import net.bonappetit.common.DiscItem;
+import net.bonappetit.common.JuiceItem;
+import net.bonappetit.common.ModFoodComponents;
+import net.bonappetit.common.ModSoundEvents;
 import net.minecraft.block.Block;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
@@ -49,11 +55,12 @@ public class ModItems
     public static final Item ONION_SOUP = register("onion_soup", new Item(new Item.Settings().group(BonAppetit.ITEM_GROUP).food(ModFoodComponents.ONION_SOUP)));
     public static final Item CARROT_SALAD = register("carrot_salad", new Item(new Item.Settings().group(BonAppetit.ITEM_GROUP).food(ModFoodComponents.CARROT_SALAD)));
     //  ~DRINKS~
-    public static final Item JUICE_APPLE = register("juice_apple", new JuiceItem(new Item.Settings().recipeRemainder(JUICER).food(ModFoodComponents.JUICE_APPLE).group(BonAppetit.ITEM_GROUP)));
-    public static final Item JUICE_PUMPKIN = register("juice_pumpkin", new JuiceItem(new Item.Settings().recipeRemainder(JUICER).food(ModFoodComponents.JUICE_PUMPKIN).group(BonAppetit.ITEM_GROUP)));
-    public static final Item JUICE_CARROT = register("juice_carrot", new JuiceItem(new Item.Settings().recipeRemainder(JUICER).food(ModFoodComponents.JUICE_CARROT).group(BonAppetit.ITEM_GROUP)));
-    public static final Item JUICE_MELON = register("juice_melon", new JuiceItem(new Item.Settings().recipeRemainder(JUICER).food(ModFoodComponents.JUICE_MELON).group(BonAppetit.ITEM_GROUP)));
-    public static final Item JUICE_BERRIES = register("juice_berries", new JuiceItem(new Item.Settings().recipeRemainder(JUICER).food(ModFoodComponents.JUICE_BERRIES).group(BonAppetit.ITEM_GROUP)));
+    public static final Item JUICE_APPLE = register("juice_apple", new JuiceItem(16776960, new Item.Settings().recipeRemainder(JUICER).food(ModFoodComponents.JUICE_APPLE).group(BonAppetit.ITEM_GROUP)));
+    public static final Item JUICE_PUMPKIN = register("juice_pumpkin", new JuiceItem(16765514, new Item.Settings().recipeRemainder(JUICER).food(ModFoodComponents.JUICE_PUMPKIN).group(BonAppetit.ITEM_GROUP)));
+    public static final Item JUICE_CARROT = register("juice_carrot", new JuiceItem(16757504, new Item.Settings().recipeRemainder(JUICER).food(ModFoodComponents.JUICE_CARROT).group(BonAppetit.ITEM_GROUP)));
+    public static final Item JUICE_MELON = register("juice_melon", new JuiceItem(16727040, new Item.Settings().recipeRemainder(JUICER).food(ModFoodComponents.JUICE_MELON).group(BonAppetit.ITEM_GROUP)));
+    public static final Item JUICE_BERRIES = register("juice_berries", new JuiceItem(16711790, new Item.Settings().recipeRemainder(JUICER).food(ModFoodComponents.JUICE_BERRIES).group(BonAppetit.ITEM_GROUP)));
+
     //  ~MISC~
     public static final Item MUSIC_DISC_AFTERNOON = register("music_disc_afternoon", new DiscItem(0, ModSoundEvents.SOUND_AFTERNOON, new Item.Settings().maxCount(1).group(BonAppetit.ITEM_GROUP).rarity(Rarity.RARE)));
 

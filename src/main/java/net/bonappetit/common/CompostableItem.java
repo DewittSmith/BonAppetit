@@ -1,4 +1,4 @@
-package net.bonappetit.registry;
+package net.bonappetit.common;
 
 import net.minecraft.block.ComposterBlock;
 import net.minecraft.item.Item;

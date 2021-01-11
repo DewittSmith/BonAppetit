@@ -1,10 +1,10 @@
-package net.bonappetit.registry;
+package net.bonappetit.common;
 
 import net.minecraft.block.BlockState;
 import net.minecraft.block.StairsBlock;
 
 public class StairBlock extends StairsBlock {
-    protected StairBlock(BlockState baseBlockState, Settings settings) {
+    public StairBlock(BlockState baseBlockState, Settings settings) {
         super(baseBlockState, settings);
     }
 }

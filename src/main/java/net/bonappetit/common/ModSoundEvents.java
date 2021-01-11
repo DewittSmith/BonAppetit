@@ -1,4 +1,4 @@
-package net.bonappetit.registry;
+package net.bonappetit.common;
 
 import net.bonappetit.BonAppetit;
 import net.minecraft.sound.SoundEvent;
