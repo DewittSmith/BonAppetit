@@ -28,8 +28,11 @@
 
     "item.bonappetit.leek": "Лук-порей",
     "item.bonappetit.tomato": "Помидор",
+    "item.bonappetit.seeds_tomato": "Семена помидора",
     "item.bonappetit.onion": "Лук",
+    "item.bonappetit.seeds_onion": "Семена лука",
     "item.bonappetit.garlic": "Чеснок",
+    "item.bonappetit.seeds_garlic": "Семена чеснока",
     "item.bonappetit.cheese": "Сыр",
     "item.bonappetit.cheese_croquettes": "Сырные крокеты",
     "item.bonappetit.pancakes": "Блинчики",

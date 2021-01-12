@@ -28,8 +28,11 @@
 
     "item.bonappetit.leek": "Leek",
     "item.bonappetit.tomato": "Tomato",
+    "item.bonappetit.seeds_tomato": "Tomato Seeds",
     "item.bonappetit.onion": "Onion",
+    "item.bonappetit.seeds_onion": "Onion Seeds",
     "item.bonappetit.garlic": "Garlic",
+    "item.bonappetit.seeds_garlic": "Garlic Seeds",
     "item.bonappetit.cheese": "Cheese",
     "item.bonappetit.cheese_croquettes": "Cheese Croquettes",
     "item.bonappetit.pancakes": "Pancakes",
