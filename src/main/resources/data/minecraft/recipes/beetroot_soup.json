@@ -17,7 +17,7 @@
       "item": "minecraft:bowl"
     },
     {
-      "item": "bonappetit:butter"
+      "tag": "c:butter"
     }
   ],
   "result": {

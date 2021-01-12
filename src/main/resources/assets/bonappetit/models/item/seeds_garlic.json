@@ -2,6 +2,6 @@
     "parent": "item/generated",
     "textures":
     {
-        "layer0":"bonappetit:/items/seeds_garlic"
+        "layer0":"bonappetit:items/seeds_garlic"
     }
 }

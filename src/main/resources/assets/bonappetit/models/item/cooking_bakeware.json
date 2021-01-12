@@ -2,6 +2,6 @@
     "parent": "item/generated",
     "textures":
     {
-        "layer0":"bonappetit:/items/cooking_bakeware"
+        "layer0":"bonappetit:items/cooking_bakeware"
     }
 }

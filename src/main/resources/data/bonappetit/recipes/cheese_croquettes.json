@@ -5,7 +5,7 @@
             "tag": "c:salt"
         },
         {
-            "item": "bonappetit:cheese"
+            "tag": "c:cheese"
         },
         {
             "item": "minecraft:egg"
@@ -14,7 +14,7 @@
             "item": "bonappetit:cooking_pan"
         },
         {
-            "item": "bonappetit:butter"
+            "tag": "c:butter"
         }
     ],
     "result": {

@@ -11,7 +11,7 @@
             "item": "minecraft:egg"
         },
         {
-            "item": "bonappetit:flour"
+            "tag": "c:flour"
         }
     ],
     "result": {

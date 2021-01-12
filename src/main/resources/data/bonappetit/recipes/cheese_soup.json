@@ -5,10 +5,10 @@
             "tag": "c:salt"
         },
         {
-            "item": "bonappetit:cheese"
+            "tag": "c:cheese"
         },
         {
-            "item": "bonappetit:butter"
+            "tag": "c:butter"
         },
         {
             "item": "bonappetit:cooking_pot"
