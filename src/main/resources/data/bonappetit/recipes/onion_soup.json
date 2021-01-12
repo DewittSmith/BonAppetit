@@ -2,13 +2,13 @@
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
         {
-            "item": "bonappetit:salt"
+            "tag": "c:salt"
         },
         {
-            "item": "bonappetit:onion"
+            "tag": "c:onion"
         },
         {
-            "item": "bonappetit:onion"
+            "tag": "c:onion"
         },
         {
             "item": "bonappetit:cooking_pot"
