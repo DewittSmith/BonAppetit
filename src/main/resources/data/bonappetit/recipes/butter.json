@@ -5,10 +5,10 @@
             "item": "bonappetit:cream"
         },
         {
-            "item": "bonappetit:salt"
+            "tag": "c:salt"
         },
         {
-            "item": "bonappetit:salt"
+            "tag": "c:salt"
         }
     ],
     "result": {
