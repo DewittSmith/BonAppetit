@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "bonappetit:salt"
+    },
+    {
+      "item": "minecraft:cooked_rabbit"
+    },
+    {
+      "tag": "minecraft:vegetables"
+    },
+    {
+      "item": "bonappetit:cooking_pot"
+    },
+    {
+      "item": "minecraft:bowl"
+    },
+    {
+      "item": "bonappetit:butter"
+    }
+  ],
+  "result": {
+    "item": "minecraft:rabbit_stew",
+    "count": 1
+  }
+}

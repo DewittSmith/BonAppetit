@@ -26,11 +26,11 @@
     "item.bonappetit.flour": "Мука",
     "item.bonappetit.dough": "Тесто",
 
-    "item.bonappetit.leek": "Лук-порей",
-    "item.bonappetit.tomato": "Помидор",
-    "item.bonappetit.seeds_tomato": "Семена помидора",
+    "item.bonappetit.scallion": "Зелёный лук",
     "item.bonappetit.onion": "Лук",
     "item.bonappetit.seeds_onion": "Семена лука",
+    "item.bonappetit.tomato": "Помидор",
+    "item.bonappetit.seeds_tomato": "Семена помидора",
     "item.bonappetit.garlic": "Чеснок",
     "item.bonappetit.seeds_garlic": "Семена чеснока",
     "item.bonappetit.cheese": "Сыр",
@@ -43,6 +43,7 @@
     "item.bonappetit.juice_apple": "Яблочный сок",
     "item.bonappetit.juice_pumpkin": "Тыквенный сок",
     "item.bonappetit.juice_carrot": "Морковный сок",
+    "item.bonappetit.juice_tomato": "Томатный сок",
     "item.bonappetit.juice_melon": "Арбузный сок",
     "item.bonappetit.juice_berries": "Ягодный сок",
 

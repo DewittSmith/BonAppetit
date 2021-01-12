@@ -4,7 +4,7 @@
     "minecraft:potato",
     "minecraft:carrot",
     "minecraft:beetroot",
-    "c:tomato",
-    "c:onion"
+    "bonappetit:tomato",
+    "bonappetit:onion"
   ]
 }
