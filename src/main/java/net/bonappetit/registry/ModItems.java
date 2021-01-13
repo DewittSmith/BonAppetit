@@ -65,8 +65,6 @@ public class ModItems
     public static final Item JUICE_TOMATO = register("juice_tomato", new JuiceItem(14435840, new Item.Settings().food(ModFoodComponents.JUICE_TOMATO).group(BonAppetit.ITEM_GROUP)));
     public static final Item JUICE_MELON = register("juice_melon", new JuiceItem(16711680, new Item.Settings().food(ModFoodComponents.JUICE_MELON).group(BonAppetit.ITEM_GROUP)));
     public static final Item JUICE_BERRIES = register("juice_berries", new JuiceItem(16711835, new Item.Settings().food(ModFoodComponents.JUICE_BERRIES).group(BonAppetit.ITEM_GROUP)));
-
-
     //  ~MISC~
     public static final Item MUSIC_DISC_AFTERNOON = register("music_disc_afternoon", new DiscItem(0, ModSoundEvents.SOUND_AFTERNOON, new Item.Settings().maxCount(1).group(BonAppetit.ITEM_GROUP).rarity(Rarity.RARE)));
 
