@@ -14,6 +14,8 @@
     "block.bonappetit.butter_block": "Блок сливочного масла",
     "block.bonappetit.cheese_block": "Блок сыра",
 
+    "block.bonappetit.onions": "Лук",
+
     "item.bonappetit.juicer": "Соковыжималка",
     "item.bonappetit.cutting_board": "Разделочная доска",
     "item.bonappetit.cooking_pan": "Сковорода",
@@ -29,8 +31,8 @@
     "item.bonappetit.scallion": "Зелёный лук",
     "item.bonappetit.onion": "Лук",
     "item.bonappetit.seeds_onion": "Семена лука",
-    "item.bonappetit.tomato": "Помидор",
-    "item.bonappetit.seeds_tomato": "Семена помидора",
+    "item.bonappetit.tomato": "Томат",
+    "item.bonappetit.seeds_tomato": "Семена томата",
     "item.bonappetit.garlic": "Чеснок",
     "item.bonappetit.seeds_garlic": "Семена чеснока",
     "item.bonappetit.cheese": "Сыр",
