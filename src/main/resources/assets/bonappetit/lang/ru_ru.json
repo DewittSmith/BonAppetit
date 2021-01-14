@@ -14,6 +14,8 @@
     "block.bonappetit.butter_block": "Блок сливочного масла",
     "block.bonappetit.cheese_block": "Блок сыра",
 
+    "block.bonappetit.onions": "Лук",
+
     "item.bonappetit.juicer": "Соковыжималка",
     "item.bonappetit.cutting_board": "Разделочная доска",
     "item.bonappetit.cooking_pan": "Сковорода",
@@ -26,10 +28,13 @@
     "item.bonappetit.flour": "Мука",
     "item.bonappetit.dough": "Тесто",
 
-    "item.bonappetit.leek": "Лук-порей",
-    "item.bonappetit.tomato": "Помидор",
+    "item.bonappetit.scallion": "Зелёный лук",
     "item.bonappetit.onion": "Лук",
+    "item.bonappetit.seeds_onion": "Семена лука",
+    "item.bonappetit.tomato": "Томат",
+    "item.bonappetit.seeds_tomato": "Семена томата",
     "item.bonappetit.garlic": "Чеснок",
+    "item.bonappetit.seeds_garlic": "Семена чеснока",
     "item.bonappetit.cheese": "Сыр",
     "item.bonappetit.cheese_croquettes": "Сырные крокеты",
     "item.bonappetit.pancakes": "Блинчики",
@@ -40,6 +45,7 @@
     "item.bonappetit.juice_apple": "Яблочный сок",
     "item.bonappetit.juice_pumpkin": "Тыквенный сок",
     "item.bonappetit.juice_carrot": "Морковный сок",
+    "item.bonappetit.juice_tomato": "Томатный сок",
     "item.bonappetit.juice_melon": "Арбузный сок",
     "item.bonappetit.juice_berries": "Ягодный сок",
 

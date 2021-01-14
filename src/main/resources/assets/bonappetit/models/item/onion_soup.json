@@ -2,6 +2,6 @@
     "parent": "item/generated",
     "textures":
     {
-        "layer0":"bonappetit:/items/onion_soup"
+        "layer0":"bonappetit:items/onion_soup"
     }
 }

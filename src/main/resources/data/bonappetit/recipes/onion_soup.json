@@ -14,7 +14,7 @@
             "item": "bonappetit:cooking_pot"
         },
         {
-            "item": "bonappetit:butter"
+            "tag": "c:butter"
         }
     ],
     "result": {

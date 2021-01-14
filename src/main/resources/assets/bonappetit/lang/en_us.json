@@ -14,6 +14,8 @@
     "block.bonappetit.butter_block": "Block of Butter",
     "block.bonappetit.cheese_block": "Block of Cheese",
 
+    "block.bonappetit.onions": "Onions",
+
     "item.bonappetit.juicer": "Juicer",
     "item.bonappetit.cutting_board": "Cutting Board",
     "item.bonappetit.cooking_pan": "Pan",
@@ -26,10 +28,13 @@
     "item.bonappetit.flour": "Flour",
     "item.bonappetit.dough": "Dough",
 
-    "item.bonappetit.leek": "Leek",
-    "item.bonappetit.tomato": "Tomato",
+    "item.bonappetit.scallion": "Scallion",
     "item.bonappetit.onion": "Onion",
+    "item.bonappetit.seeds_onion": "Onion Seeds",
+    "item.bonappetit.tomato": "Tomato",
+    "item.bonappetit.seeds_tomato": "Tomato Seeds",
     "item.bonappetit.garlic": "Garlic",
+    "item.bonappetit.seeds_garlic": "Garlic Seeds",
     "item.bonappetit.cheese": "Cheese",
     "item.bonappetit.cheese_croquettes": "Cheese Croquettes",
     "item.bonappetit.pancakes": "Pancakes",
@@ -40,6 +45,7 @@
     "item.bonappetit.juice_apple": "Apple Juice",
     "item.bonappetit.juice_pumpkin": "Pumpkin Juice",
     "item.bonappetit.juice_carrot": "Carrot Juice",
+    "item.bonappetit.juice_tomato": "Tomato Juice",
     "item.bonappetit.juice_melon": "Melon Juice",
     "item.bonappetit.juice_berries": "Sweet Berry Juice",
 

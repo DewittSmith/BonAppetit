@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smelting",
   "ingredient": {
-    "item": "bonappetit:dough"
+    "tag": "c:dough"
   },
   "result": "minecraft:bread",
   "experience": 0.5,
