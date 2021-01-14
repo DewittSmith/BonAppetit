@@ -2,12 +2,10 @@ package net.bonappetit.common;
 
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
-import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.CropBlock;
 import net.minecraft.block.ShapeContext;
-import net.minecraft.client.render.RenderLayer;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemConvertible;
 import net.minecraft.item.Items;
@@ -21,9 +19,8 @@ public class ModCropBlock extends CropBlock {
 
     public ModCropBlock(Settings settings) {
         super(settings.nonOpaque());
-        BlockRenderLayerMap.INSTANCE.putBlock(this, RenderLayer.getCutout());
     }
-
+    
     public void setSeedsItem(Item seeds) {
         seedsItem = seeds;
     }
@@ -33,6 +30,7 @@ public class ModCropBlock extends CropBlock {
         return seedsItem;
     }
 
+    @Override
     public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
         return AGE_TO_SHAPE[(Integer)state.get(this.getAgeProperty())];
     }

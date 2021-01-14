@@ -1,5 +1,7 @@
 package net.bonappetit.registry;
 
+import java.util.ArrayList;
+
 import net.bonappetit.BonAppetit;
 import net.bonappetit.common.CompostableItem;
 import net.bonappetit.common.CookingItem;
@@ -17,6 +19,8 @@ import net.minecraft.util.registry.Registry;
 
 public class ModItems 
 {
+    public static final ArrayList<JuiceItem> JUICE_ITEMS = new ArrayList<JuiceItem>();
+
     // ~BLOCKS~
     public static final Item HALITE_ORE = register(ModBlocks.HALITE_ORE);
     public static final Item LIMESTONE = register(ModBlocks.LIMESTONE);
@@ -84,6 +88,11 @@ public class ModItems
 
     private static Item register(String id, Item item) {
         return register(new Identifier(BonAppetit.MOD_ID, id), item);
+    }
+
+    private static Item register(String id, JuiceItem item) {
+        JUICE_ITEMS.add(item);
+        return register(id, (Item)item);
     }
     
     private static Item register(Identifier id, Item item) {

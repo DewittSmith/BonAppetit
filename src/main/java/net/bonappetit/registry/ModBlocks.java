@@ -1,5 +1,7 @@
 package net.bonappetit.registry;
 
+import java.util.ArrayList;
+
 import net.bonappetit.BonAppetit;
 import net.bonappetit.common.ModOreBlock;
 import net.bonappetit.common.ModCropBlock;
@@ -16,6 +18,8 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 public class ModBlocks {
+    public static final ArrayList<ModCropBlock> CROPS = new ArrayList<ModCropBlock>();
+
     public static final Block HALITE_ORE = register("halite_ore", new ModOreBlock(FabricBlockSettings.of(Material.STONE).breakByTool(FabricToolTags.PICKAXES, 0).requiresTool().strength(2f, 3f).sounds(BlockSoundGroup.NETHER_GOLD_ORE)));
     public static final Block LIMESTONE = register("limestone", new Block(FabricBlockSettings.of(Material.STONE).breakByTool(FabricToolTags.PICKAXES, 0).requiresTool().strength(1.25f, 3).sounds(BlockSoundGroup.NETHERRACK)));
     public static final Block LIMESTONE_STAIRS = register("limestone_stairs", new StairBlock(LIMESTONE.getDefaultState(), AbstractBlock.Settings.copy(LIMESTONE)));
@@ -34,6 +38,11 @@ public class ModBlocks {
     private static Block register(String id, Block block) {
         Identifier identifier = new Identifier(BonAppetit.MOD_ID, id);
         return (Block)Registry.register(Registry.BLOCK, identifier, block);
+    }
+
+    private static Block register(String id, ModCropBlock block) {
+        CROPS.add(block);
+        return register(id, (Block)block);
     }
 
     public static void init() { }

@@ -1,6 +1,5 @@
 package net.bonappetit;
 
-import net.bonappetit.common.ModCropBlock;
 import net.bonappetit.registry.ModBlocks;
 import net.bonappetit.registry.ModItems;
 import net.bonappetit.registry.ModOres;
@@ -25,4 +24,5 @@ public class BonAppetit implements ModInitializer
 
         ModOres.init();
     }
+
 }

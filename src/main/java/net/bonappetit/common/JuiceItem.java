@@ -4,13 +4,21 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.sound.SoundEvent;
 import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.UseAction;
-
+import net.fabricmc.api.EnvType;
+import net.fabricmc.api.Environment;
 import net.fabricmc.fabric.api.client.rendering.v1.ColorProviderRegistry;
 
 public class JuiceItem extends ModItem {
 
+    private int color;
+
     public JuiceItem(int color, Settings settings) {
         super(settings);
+        this.color = color;
+    }
+
+    @Environment(EnvType.CLIENT)
+    public void applyColor() {
         ColorProviderRegistry.ITEM.register((stack, tintIndex) -> {
             if (tintIndex == 0) return color;
             else return 16777215;
