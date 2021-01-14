@@ -1,11 +1,10 @@
 package net.bonappetit.common;
 
 import net.bonappetit.mixin.ItemRemainderAccessor;
-import net.minecraft.item.Item;
 
-public class CookingItem extends Item {
+public class CookingItem extends ModItem {
 	public CookingItem(Settings settings) {
-        super(settings);
+        super(settings.maxCount(1));
         ((ItemRemainderAccessor)this).setRecipeRemainder(this);
 	}
 }
