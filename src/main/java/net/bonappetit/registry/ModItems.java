@@ -7,9 +7,9 @@ import net.bonappetit.common.DiscItem;
 import net.bonappetit.common.JuiceItem;
 import net.bonappetit.common.ModFoodComponents;
 import net.bonappetit.common.ModItem;
+import net.bonappetit.common.ModSeedItem;
 import net.bonappetit.common.ModSoundEvents;
 import net.minecraft.block.Block;
-import net.minecraft.item.AliasedBlockItem;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.util.Identifier;
@@ -46,7 +46,7 @@ public class ModItems
     //  ~FOOD~
     public static final Item SCALLION = register("scallion", new CompostableItem(new Item.Settings().food(ModFoodComponents.SCALLION), 0.65F));
     public static final Item ONION = register("onion", new CompostableItem(new Item.Settings().food(ModFoodComponents.ONION), 0.65F));
-    public static final Item SEEDS_ONION = register("seeds_onion", (Item)(new AliasedBlockItem(ModBlocks.ONIONS, new Item.Settings().group(BonAppetit.ITEM_GROUP))));
+    public static final Item SEEDS_ONION = register("seeds_onion", new ModSeedItem(ModBlocks.ONIONS, new Item.Settings().group(BonAppetit.ITEM_GROUP), 0.30f));
     public static final Item TOMATO = register("tomato", new CompostableItem(new Item.Settings().food(ModFoodComponents.TOMATO), 0.65F));
     public static final Item SEEDS_TOMATO = register("seeds_tomato", new CompostableItem(new Item.Settings(), 0.30f));
     public static final Item GARLIC = register("garlic", new CompostableItem(new Item.Settings().food(ModFoodComponents.GARLIC), 0.65F));
