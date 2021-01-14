@@ -1,8 +1,10 @@
 package net.bonappetit;
 
+import net.bonappetit.common.ModCropBlock;
 import net.bonappetit.registry.ModBlocks;
 import net.bonappetit.registry.ModItems;
 import net.bonappetit.registry.ModOres;
+import net.bonappetit.registry.ModSeeds;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.minecraft.item.ItemGroup;
@@ -19,6 +21,8 @@ public class BonAppetit implements ModInitializer
     {
         ModBlocks.init();
         ModItems.init();
+        ModSeeds.init();
+
         ModOres.init();
     }
 }
