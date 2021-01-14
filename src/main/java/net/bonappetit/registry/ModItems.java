@@ -68,7 +68,7 @@ public class ModItems
     //  ~MISC~
     public static final Item MUSIC_DISC_AFTERNOON = register("music_disc_afternoon", new DiscItem(0, ModSoundEvents.SOUND_AFTERNOON, new Item.Settings().maxCount(1).group(BonAppetit.ITEM_GROUP).rarity(Rarity.RARE)));
 
-    // public static final Item WHEAT_SEEDS = register((String)"wheat_seeds", (Item)(new AliasedBlockItem(Blocks.WHEAT, (new Item.Settings()).group(ItemGroup.MATERIALS))));
+
 
     private static Item register(Block block) {
         return register(new BlockItem(block, new Item.Settings().group(BonAppetit.ITEM_GROUP)));

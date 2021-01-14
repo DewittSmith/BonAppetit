@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:blasting",
+    "ingredient": {
+        "item": "bonappetit:halite_ore"
+    },
+    "result": "bonappetit:salt",
+    "experience": 0.1,
+    "cookingtime": 100
+}
