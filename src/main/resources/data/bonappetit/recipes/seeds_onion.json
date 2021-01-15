@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "bonappetit:onion"
+        }
+    ],
+    "result": {
+        "item": "bonappetit:seeds_onion",
+        "count": 1
+    }
+}
