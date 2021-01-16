@@ -28,6 +28,8 @@
     "item.bonappetit.flour": "Flour",
     "item.bonappetit.dough": "Dough",
 
+    "item.bonappetit.cucumber": "Cucumber",
+    "item.bonappetit.seeds_cucumber": "Cucumber Seeds",
     "item.bonappetit.scallion": "Scallion",
     "item.bonappetit.onion": "Onion",
     "item.bonappetit.seeds_onion": "Onion Seeds",
@@ -39,6 +41,7 @@
     "item.bonappetit.cheese_croquettes": "Cheese Croquettes",
     "item.bonappetit.pancakes": "Pancakes",
     "item.bonappetit.fried_egg": "Fried Egg",
+    "item.bonappetit.tomato_soup": "Tomato Soup",
     "item.bonappetit.cheese_soup": "Cheese Soup",
     "item.bonappetit.onion_soup": "Onion Soup",
     "item.bonappetit.carrot_salad": "Carrot Salad",

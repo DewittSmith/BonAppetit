@@ -28,6 +28,8 @@
     "item.bonappetit.flour": "Мука",
     "item.bonappetit.dough": "Тесто",
 
+    "item.bonappetit.cucumber": "Огурец",
+    "item.bonappetit.seeds_cucumber": "Семена огурца",
     "item.bonappetit.scallion": "Зелёный лук",
     "item.bonappetit.onion": "Лук",
     "item.bonappetit.seeds_onion": "Семена лука",
@@ -39,6 +41,7 @@
     "item.bonappetit.cheese_croquettes": "Сырные крокеты",
     "item.bonappetit.pancakes": "Блинчики",
     "item.bonappetit.fried_egg": "Глазунья",
+    "item.bonappetit.tomato_soup": "Томатный суп",
     "item.bonappetit.cheese_soup": "Сырный суп",
     "item.bonappetit.onion_soup": "Луковый суп",
     "item.bonappetit.carrot_salad": "Морковный салат",
