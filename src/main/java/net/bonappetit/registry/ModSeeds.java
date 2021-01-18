@@ -6,5 +6,6 @@ public class ModSeeds {
     
     public static void init() {
         ((ModCropBlock)ModBlocks.ONIONS).setSeedsItem(ModItems.SEEDS_ONION);
+        ((ModCropBlock)ModBlocks.TOMATOES).setSeedsItem(ModItems.SEEDS_TOMATO);
     }
 }

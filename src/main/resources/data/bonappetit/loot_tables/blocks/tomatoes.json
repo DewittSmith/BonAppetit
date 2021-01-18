@@ -1,0 +1,55 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": {
+        "min": 2,
+        "max": 4
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 5,
+          "name": "bonappetit:tomato",
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "bonappetit:tomatoes",
+              "properties": {
+                "age": "7"
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "bonappetit:seeds_tomato",
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "bonappetit:tomatoes",
+              "properties": {
+                "age": "7"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "bonappetit:seeds_tomato"
+        }
+      ]
+    }
+  ],
+  "functions": [
+    {
+      "function": "minecraft:explosion_decay"
+    }
+  ]
+}

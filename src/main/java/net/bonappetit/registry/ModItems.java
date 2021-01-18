@@ -54,7 +54,7 @@ public class ModItems
     public static final Item ONION = register("onion", new CompostableItem(new Item.Settings().food(ModFoodComponents.ONION), 0.65F));
     public static final Item SEEDS_ONION = register("seeds_onion", new ModSeedItem(ModBlocks.ONIONS, new Item.Settings(), 0.30f));
     public static final Item TOMATO = register("tomato", new CompostableItem(new Item.Settings().food(ModFoodComponents.TOMATO), 0.65F));
-    public static final Item SEEDS_TOMATO = register("seeds_tomato", new CompostableItem(new Item.Settings(), 0.30f));
+    public static final Item SEEDS_TOMATO = register("seeds_tomato", new ModSeedItem(ModBlocks.TOMATOES, new Item.Settings(), 0.30f));
     public static final Item GARLIC = register("garlic", new CompostableItem(new Item.Settings().food(ModFoodComponents.GARLIC), 0.65F));
     public static final Item SEEDS_GARLIC = register("seeds_garlic", new CompostableItem(new Item.Settings(), 0.30f));
     public static final Item CHEESE = register("cheese", new ModItem(new Item.Settings().food(ModFoodComponents.CHEESE)));

@@ -34,7 +34,8 @@ public class ModBlocks {
     public static final Block CHEESE_BLOCK = register("cheese_block", new Block(FabricBlockSettings.of(Material.SOLID_ORGANIC).breakByTool(FabricToolTags.HOES, 0).strength(0.25f, 0.25f).sounds(BlockSoundGroup.HONEY)));
     // ~CROPS~
     public static final Block ONIONS = register("onions", new ModCropBlock(FabricBlockSettings.of(Material.PLANT).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP)));
-    
+    public static final Block TOMATOES = register("tomatoes", new ModCropBlock(FabricBlockSettings.of(Material.PLANT).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP)));
+
     private static Block register(String id, Block block) {
         Identifier identifier = new Identifier(BonAppetit.MOD_ID, id);
         return (Block)Registry.register(Registry.BLOCK, identifier, block);
