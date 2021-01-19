@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "minecraft:cocoa_beans"
+        },
+        {
+            "item": "minecraft:cocoa_beans"
+        },
+        {
+            "item": "minecraft:sugar"
+        },
+        {
+            "item": "bonappetit:cooking_pot"
+        }
+    ],
+    "result": {
+        "item": "bonappetit:chocolate",
+        "count": 2
+    }
+}

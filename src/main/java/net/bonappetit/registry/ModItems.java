@@ -48,19 +48,20 @@ public class ModItems
     public static final Item FLOUR = register("flour", new ModItem(new Item.Settings()));
     public static final Item DOUGH = register("dough", new ModItem(new Item.Settings()));
     //  ~FOOD~
-    public static final Item CUCUMBER = register("cucumber", new CompostableItem(new Item.Settings().food(ModFoodComponents.CUCUMBER), 0.65F));
-    public static final Item SEEDS_CUCUMBER = register("seeds_cucumber", new CompostableItem(new Item.Settings(), 0.30f));
-    public static final Item SCALLION = register("scallion", new CompostableItem(new Item.Settings().food(ModFoodComponents.SCALLION), 0.65F));
-    public static final Item ONION = register("onion", new CompostableItem(new Item.Settings().food(ModFoodComponents.ONION), 0.65F));
-    public static final Item SEEDS_ONION = register("seeds_onion", new ModSeedItem(ModBlocks.ONIONS, new Item.Settings(), 0.30f));
-    public static final Item TOMATO = register("tomato", new CompostableItem(new Item.Settings().food(ModFoodComponents.TOMATO), 0.65F));
-    public static final Item SEEDS_TOMATO = register("seeds_tomato", new ModSeedItem(ModBlocks.TOMATOES, new Item.Settings(), 0.30f));
     public static final Item GARLIC = register("garlic", new CompostableItem(new Item.Settings().food(ModFoodComponents.GARLIC), 0.65F));
     public static final Item SEEDS_GARLIC = register("seeds_garlic", new CompostableItem(new Item.Settings(), 0.30f));
+    public static final Item ONION = register("onion", new CompostableItem(new Item.Settings().food(ModFoodComponents.ONION), 0.65F));
+    public static final Item SEEDS_ONION = register("seeds_onion", new ModSeedItem(ModBlocks.ONIONS, new Item.Settings(), 0.30f));
+    public static final Item SCALLION = register("scallion", new CompostableItem(new Item.Settings().food(ModFoodComponents.SCALLION), 0.65F));
+    public static final Item CUCUMBER = register("cucumber", new CompostableItem(new Item.Settings().food(ModFoodComponents.CUCUMBER), 0.65F));
+    public static final Item SEEDS_CUCUMBER = register("seeds_cucumber", new CompostableItem(new Item.Settings(), 0.30f));
+    public static final Item TOMATO = register("tomato", new CompostableItem(new Item.Settings().food(ModFoodComponents.TOMATO), 0.65F));
+    public static final Item SEEDS_TOMATO = register("seeds_tomato", new ModSeedItem(ModBlocks.TOMATOES, new Item.Settings(), 0.30f));
     public static final Item CHEESE = register("cheese", new ModItem(new Item.Settings().food(ModFoodComponents.CHEESE)));
     public static final Item CHEESE_CROQUETTES = register("cheese_croquettes", new ModItem(new Item.Settings().food(ModFoodComponents.CHEESE_CROQUETTES)));
     public static final Item PANCAKES = register("pancakes", new ModItem(new Item.Settings().food(ModFoodComponents.PANCAKES)));
     public static final Item FRIED_EGG = register("fried_egg", new ModItem(new Item.Settings().food(ModFoodComponents.FRIED_EGG)));
+    public static final Item CHOCOLATE = register("chocolate", new ModItem(new Item.Settings().food(ModFoodComponents.CHOCOLATE)));
     public static final Item TOMATO_SOUP = register("tomato_soup", new ModItem(new Item.Settings().food(ModFoodComponents.TOMATO_SOUP)));
     public static final Item CHEESE_SOUP = register("cheese_soup", new ModItem(new Item.Settings().food(ModFoodComponents.CHEESE_SOUP)));
     public static final Item ONION_SOUP = register("onion_soup", new ModItem(new Item.Settings().food(ModFoodComponents.ONION_SOUP)));
