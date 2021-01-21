@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "bonappetit:garlic"
+        }
+    ],
+    "result": {
+        "item": "bonappetit:seeds_garlic",
+        "count": 1
+    }
+}

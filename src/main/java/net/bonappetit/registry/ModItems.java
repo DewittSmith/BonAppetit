@@ -21,7 +21,7 @@ public class ModItems
 {
     public static final ArrayList<JuiceItem> JUICE_ITEMS = new ArrayList<JuiceItem>();
 
-    // ~BLOCKS~
+    //  [BLOCKS]
     public static final Item HALITE_ORE = register(ModBlocks.HALITE_ORE);
     public static final Item LIMESTONE = register(ModBlocks.LIMESTONE);
     public static final Item LIMESTONE_STAIRS = register(ModBlocks.LIMESTONE_STAIRS);
@@ -34,20 +34,20 @@ public class ModItems
     public static final Item SALT_BLOCK = register(ModBlocks.SALT_BLOCK);
     public static final Item BUTTER_BLOCK = register(ModBlocks.BUTTER_BLOCK);
     public static final Item CHEESE_BLOCK = register(ModBlocks.CHEESE_BLOCK);
-    //  ~COOKING TOOLS~
+    //  [COOKING TOOLS]
     public static final Item JUICER = register("juicer", new CookingItem(new Item.Settings()));
     public static final Item CUTTING_BOARD = register("cutting_board", new CookingItem(new Item.Settings()));
     public static final Item PAN = register("cooking_pan", new CookingItem(new Item.Settings()));
     public static final Item POT = register("cooking_pot", new CookingItem(new Item.Settings()));
     public static final Item MORTAR_AND_PESTLE = register("cooking_mortar_and_pestle", new CookingItem(new Item.Settings()));
     public static final Item BAKEWARE = register("cooking_bakeware", new CookingItem(new Item.Settings()));
-    //  ~ITEMS~
+    //  [ITEMS]
     public static final Item SALT = register("salt", new ModItem(new Item.Settings()));
     public static final Item CREAM = register("cream", new ModItem(new Item.Settings()));
-    public static final Item BUTTER = register("butter", new ModItem(new Item.Settings()));
     public static final Item FLOUR = register("flour", new ModItem(new Item.Settings()));
+    public static final Item BUTTER = register("butter", new ModItem(new Item.Settings()));
     public static final Item DOUGH = register("dough", new ModItem(new Item.Settings()));
-    //  ~FOOD~
+    //  [FOOD]
     public static final Item GARLIC = register("garlic", new CompostableItem(new Item.Settings().food(ModFoodComponents.GARLIC), 0.65F));
     public static final Item SEEDS_GARLIC = register("seeds_garlic", new CompostableItem(new Item.Settings(), 0.30f));
     public static final Item ONION = register("onion", new CompostableItem(new Item.Settings().food(ModFoodComponents.ONION), 0.65F));
@@ -57,23 +57,23 @@ public class ModItems
     public static final Item SEEDS_CUCUMBER = register("seeds_cucumber", new CompostableItem(new Item.Settings(), 0.30f));
     public static final Item TOMATO = register("tomato", new CompostableItem(new Item.Settings().food(ModFoodComponents.TOMATO), 0.65F));
     public static final Item SEEDS_TOMATO = register("seeds_tomato", new ModSeedItem(ModBlocks.TOMATOES, new Item.Settings(), 0.30f));
+    public static final Item FRIED_EGG = register("fried_egg", new ModItem(new Item.Settings().food(ModFoodComponents.FRIED_EGG)));
+    public static final Item PANCAKES = register("pancakes", new ModItem(new Item.Settings().food(ModFoodComponents.PANCAKES)));
     public static final Item CHEESE = register("cheese", new ModItem(new Item.Settings().food(ModFoodComponents.CHEESE)));
     public static final Item CHEESE_CROQUETTES = register("cheese_croquettes", new ModItem(new Item.Settings().food(ModFoodComponents.CHEESE_CROQUETTES)));
-    public static final Item PANCAKES = register("pancakes", new ModItem(new Item.Settings().food(ModFoodComponents.PANCAKES)));
-    public static final Item FRIED_EGG = register("fried_egg", new ModItem(new Item.Settings().food(ModFoodComponents.FRIED_EGG)));
     public static final Item CHOCOLATE = register("chocolate", new ModItem(new Item.Settings().food(ModFoodComponents.CHOCOLATE)));
-    public static final Item TOMATO_SOUP = register("tomato_soup", new ModItem(new Item.Settings().food(ModFoodComponents.TOMATO_SOUP)));
-    public static final Item CHEESE_SOUP = register("cheese_soup", new ModItem(new Item.Settings().food(ModFoodComponents.CHEESE_SOUP)));
     public static final Item ONION_SOUP = register("onion_soup", new ModItem(new Item.Settings().food(ModFoodComponents.ONION_SOUP)));
+    public static final Item CHEESE_SOUP = register("cheese_soup", new ModItem(new Item.Settings().food(ModFoodComponents.CHEESE_SOUP)));
+    public static final Item TOMATO_SOUP = register("tomato_soup", new ModItem(new Item.Settings().food(ModFoodComponents.TOMATO_SOUP)));
     public static final Item CARROT_SALAD = register("carrot_salad", new ModItem(new Item.Settings().food(ModFoodComponents.CARROT_SALAD)));
-    //  ~DRINKS~
+    //  [DRINKS]
     public static final Item JUICE_APPLE = register("juice_apple", new JuiceItem(16776960, new Item.Settings().food(ModFoodComponents.JUICE_APPLE)));
     public static final Item JUICE_PUMPKIN = register("juice_pumpkin", new JuiceItem(16762880, new Item.Settings().food(ModFoodComponents.JUICE_PUMPKIN)));
     public static final Item JUICE_CARROT = register("juice_carrot", new JuiceItem(16751365, new Item.Settings().food(ModFoodComponents.JUICE_CARROT)));
     public static final Item JUICE_TOMATO = register("juice_tomato", new JuiceItem(14435840, new Item.Settings().food(ModFoodComponents.JUICE_TOMATO)));
     public static final Item JUICE_MELON = register("juice_melon", new JuiceItem(16711680, new Item.Settings().food(ModFoodComponents.JUICE_MELON)));
     public static final Item JUICE_BERRIES = register("juice_berries", new JuiceItem(16711835, new Item.Settings().food(ModFoodComponents.JUICE_BERRIES)));
-    //  ~MISC~
+    //  [MISC]
     public static final Item MUSIC_DISC_AFTERNOON = register("music_disc_afternoon", new DiscItem(0, ModSoundEvents.SOUND_AFTERNOON, new Item.Settings()));
 
 

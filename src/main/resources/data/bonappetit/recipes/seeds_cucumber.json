@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "bonappetit:cucumber"
+        }
+    ],
+    "result": {
+        "item": "bonappetit:seeds_cucumber",
+        "count": 1
+    }
+}
