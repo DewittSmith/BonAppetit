@@ -14,7 +14,10 @@
     "block.bonappetit.butter_block": "Block of Butter",
     "block.bonappetit.cheese_block": "Block of Cheese",
 
+    "block.bonappetit.garlics": "Garlics",
     "block.bonappetit.onions": "Onions",
+    "block.bonappetit.cucumbers": "Cucumbers",
+    "block.bonappetit.chillies": "Chillies",
     "block.bonappetit.tomatoes": "Tomatoes",
 
     "item.bonappetit.juicer": "Juicer",
@@ -36,6 +39,8 @@
     "item.bonappetit.scallion": "Scallion",
     "item.bonappetit.cucumber": "Cucumber",
     "item.bonappetit.seeds_cucumber": "Cucumber Seeds",
+    "item.bonappetit.chilli": "Chilli",
+    "item.bonappetit.seeds_chilli": "Chilli Seeds",
     "item.bonappetit.tomato": "Tomato",
     "item.bonappetit.seeds_tomato": "Tomato Seeds",
     "item.bonappetit.fried_egg": "Fried Egg",

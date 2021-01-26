@@ -14,8 +14,11 @@
     "block.bonappetit.butter_block": "Блок сливочного масла",
     "block.bonappetit.cheese_block": "Блок сыра",
 
+    "block.bonappetit.garlics": "Чеснок",
     "block.bonappetit.onions": "Лук",
     "block.bonappetit.tomatoes": "Томаты",
+    "block.bonappetit.cucumbers": "Огурцы",
+    "block.bonappetit.chillies": "Красный перец",
 
     "item.bonappetit.juicer": "Соковыжималка",
     "item.bonappetit.cutting_board": "Доска",
@@ -36,6 +39,8 @@
     "item.bonappetit.scallion": "Зелёный лук",
     "item.bonappetit.cucumber": "Огурец",
     "item.bonappetit.seeds_cucumber": "Семена огурца",
+    "item.bonappetit.chilli": "Красный перец",
+    "item.bonappetit.seeds_chilli": "Семена красного перца",
     "item.bonappetit.tomato": "Томат",
     "item.bonappetit.seeds_tomato": "Семена томата",
     "item.bonappetit.fried_egg": "Глазунья",

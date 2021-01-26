@@ -55,6 +55,8 @@ public class ModItems
     public static final Item SCALLION = register("scallion", new CompostableItem(new Item.Settings().food(ModFoodComponents.SCALLION), 0.65F));
     public static final Item CUCUMBER = register("cucumber", new CompostableItem(new Item.Settings().food(ModFoodComponents.CUCUMBER), 0.65F));
     public static final Item SEEDS_CUCUMBER = register("seeds_cucumber", new CompostableItem(new Item.Settings(), 0.30f));
+    public static final Item CHILLI = register("chilli", new CompostableItem(new Item.Settings().food(ModFoodComponents.CHILLI), 0.65F));
+    public static final Item SEEDS_CHILLI = register("seeds_chilli", new ModItem(new Item.Settings()));
     public static final Item TOMATO = register("tomato", new CompostableItem(new Item.Settings().food(ModFoodComponents.TOMATO), 0.65F));
     public static final Item SEEDS_TOMATO = register("seeds_tomato", new ModSeedItem(ModBlocks.TOMATOES, new Item.Settings(), 0.30f));
     public static final Item FRIED_EGG = register("fried_egg", new ModItem(new Item.Settings().food(ModFoodComponents.FRIED_EGG)));
