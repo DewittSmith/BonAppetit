@@ -2,43 +2,11 @@
   "type": "minecraft:block",
   "pools": [
     {
-      "rolls": {
-        "min": 3,
-        "max": 5
-      },
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 10,
           "name": "bonappetit:onion",
-          "conditions": [
-            {
-              "condition": "minecraft:block_state_property",
-              "block": "bonappetit:onions",
-              "properties": {
-                "age": "7"
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 10,
-          "name": "bonappetit:scallion",
-          "conditions": [
-            {
-              "condition": "minecraft:block_state_property",
-              "block": "bonappetit:onions",
-              "properties": {
-                "age": "7"
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 2,
-          "name": "bonappetit:seeds_onion",
           "conditions": [
             {
               "condition": "minecraft:block_state_property",
@@ -55,8 +23,55 @@
       "rolls": 1,
       "entries": [
         {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "bonappetit:scallion",
+              "conditions": [
+                {
+                  "condition": "minecraft:block_state_property",
+                  "block": "bonappetit:onions",
+                  "properties": {
+                    "age": "7"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "bonappetit:seeds_onion"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
           "type": "minecraft:item",
-          "name": "bonappetit:seeds_onion"
+          "name": "bonappetit:seeds_onion",
+          "functions": [
+            {
+              "function": "minecraft:apply_bonus",
+              "enchantment": "minecraft:fortune",
+              "formula": "minecraft:binomial_with_bonus_count",
+              "parameters": {
+                "extra": 3,
+                "probability": 0.5714286
+              }
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:block_state_property",
+          "block": "bonappetit:onions",
+          "properties": {
+            "age": "7"
+          }
         }
       ]
     }

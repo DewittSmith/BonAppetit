@@ -1,17 +1,19 @@
 {
-  "type": "minecraft:crafting_shaped",
-  "pattern": [
-    "## ",
-    "## ",
-    "   "
-  ],
-  "key": {
-    "#": {
-      "item": "minecraft:quartz_bricks"
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "bonappetit:quartz_tiles"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ]
     }
-  },
-  "result": {
-    "item": "bonappetit:quartz_tiles",
-    "count": 1
-  }
+  ]
 }
