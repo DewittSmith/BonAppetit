@@ -49,7 +49,7 @@ public class ModItems
     public static final Item DOUGH = register("dough", new ModItem(new Item.Settings()));
     //  [FOOD]
     public static final Item GARLIC = register("garlic", new CompostableItem(new Item.Settings().food(ModFoodComponents.GARLIC), 0.65F));
-    public static final Item SEEDS_GARLIC = register("seeds_garlic", new CompostableItem(new Item.Settings(), 0.30f));
+    public static final Item SEEDS_GARLIC = register("seeds_garlic", new ModSeedItem(ModBlocks.GARLICS, new Item.Settings(), 0.30f));
     public static final Item ONION = register("onion", new CompostableItem(new Item.Settings().food(ModFoodComponents.ONION), 0.65F));
     public static final Item SEEDS_ONION = register("seeds_onion", new ModSeedItem(ModBlocks.ONIONS, new Item.Settings(), 0.30f));
     public static final Item SCALLION = register("scallion", new CompostableItem(new Item.Settings().food(ModFoodComponents.SCALLION), 0.65F));
@@ -61,6 +61,7 @@ public class ModItems
     public static final Item SEEDS_TOMATO = register("seeds_tomato", new ModSeedItem(ModBlocks.TOMATOES, new Item.Settings(), 0.30f));
     public static final Item FRIED_EGG = register("fried_egg", new ModItem(new Item.Settings().food(ModFoodComponents.FRIED_EGG)));
     public static final Item PANCAKES = register("pancakes", new ModItem(new Item.Settings().food(ModFoodComponents.PANCAKES)));
+    public static final Item DONUT = register("donut", new ModItem(new Item.Settings().food(ModFoodComponents.DONUT)));
     public static final Item CHEESE = register("cheese", new ModItem(new Item.Settings().food(ModFoodComponents.CHEESE)));
     public static final Item CHEESE_CROQUETTES = register("cheese_croquettes", new ModItem(new Item.Settings().food(ModFoodComponents.CHEESE_CROQUETTES)));
     public static final Item CHOCOLATE = register("chocolate", new ModItem(new Item.Settings().food(ModFoodComponents.CHOCOLATE)));

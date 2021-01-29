@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "tag": "c:dough"
+        },
+        {
+            "item": "minecraft:sugar"
+        },
+        {
+            "item": "minecraft:sugar"
+        },
+        {
+            "item": "bonappetit:cooking_pan"
+        },
+        {
+            "tag": "c:butter"
+        }
+    ],
+    "result": {
+        "item": "bonappetit:donut",
+        "count": 2
+    }
+}
