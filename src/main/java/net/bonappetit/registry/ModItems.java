@@ -20,6 +20,7 @@ import net.minecraft.util.registry.Registry;
 public class ModItems 
 {
     public static final ArrayList<JuiceItem> JUICE_ITEMS = new ArrayList<JuiceItem>();
+    public static final ArrayList<ModSeedItem> SEED_ITEMS = new ArrayList<ModSeedItem>();
 
     //  [BLOCKS]
     public static final Item HALITE_ORE = register(ModBlocks.HALITE_ORE);
@@ -49,16 +50,16 @@ public class ModItems
     public static final Item DOUGH = register("dough", new ModItem(new Item.Settings()));
     //  [FOOD]
     public static final Item GARLIC = register("garlic", new CompostableItem(new Item.Settings().food(ModFoodComponents.GARLIC), 0.65F));
-    public static final Item SEEDS_GARLIC = register("seeds_garlic", new ModSeedItem(ModBlocks.GARLICS, new Item.Settings(), 0.30f));
+    public static final Item SEEDS_GARLIC = register("seeds_garlic", new ModSeedItem(0x001122, 0xFF00FF, ModBlocks.GARLICS, new Item.Settings(), 0.30f));
     public static final Item ONION = register("onion", new CompostableItem(new Item.Settings().food(ModFoodComponents.ONION), 0.65F));
-    public static final Item SEEDS_ONION = register("seeds_onion", new ModSeedItem(ModBlocks.ONIONS, new Item.Settings(), 0.30f));
+    public static final Item SEEDS_ONION = register("seeds_onion", new ModSeedItem(0x651122, 0xCFD0FF, ModBlocks.ONIONS, new Item.Settings(), 0.30f));
     public static final Item SCALLION = register("scallion", new CompostableItem(new Item.Settings().food(ModFoodComponents.SCALLION), 0.65F));
     public static final Item CUCUMBER = register("cucumber", new CompostableItem(new Item.Settings().food(ModFoodComponents.CUCUMBER), 0.65F));
     public static final Item SEEDS_CUCUMBER = register("seeds_cucumber", new CompostableItem(new Item.Settings(), 0.30f));
     public static final Item CHILLI = register("chilli", new CompostableItem(new Item.Settings().food(ModFoodComponents.CHILLI), 0.65F));
     public static final Item SEEDS_CHILLI = register("seeds_chilli", new CompostableItem(new Item.Settings(), 0.30f));
     public static final Item TOMATO = register("tomato", new CompostableItem(new Item.Settings().food(ModFoodComponents.TOMATO), 0.65F));
-    public static final Item SEEDS_TOMATO = register("seeds_tomato", new ModSeedItem(ModBlocks.TOMATOES, new Item.Settings(), 0.30f));
+    public static final Item SEEDS_TOMATO = register("seeds_tomato", new ModSeedItem(0x654321, 0xDDDDDF, ModBlocks.TOMATOES, new Item.Settings(), 0.30f));
     public static final Item FRIED_EGG = register("fried_egg", new ModItem(new Item.Settings().food(ModFoodComponents.FRIED_EGG)));
     public static final Item PANCAKES = register("pancakes", new ModItem(new Item.Settings().food(ModFoodComponents.PANCAKES)));
     public static final Item DONUT = register("donut", new ModItem(new Item.Settings().food(ModFoodComponents.DONUT)));
@@ -70,12 +71,12 @@ public class ModItems
     public static final Item TOMATO_SOUP = register("tomato_soup", new ModItem(new Item.Settings().food(ModFoodComponents.TOMATO_SOUP)));
     public static final Item CARROT_SALAD = register("carrot_salad", new ModItem(new Item.Settings().food(ModFoodComponents.CARROT_SALAD)));
     //  [DRINKS]
-    public static final Item JUICE_APPLE = register("juice_apple", new JuiceItem(16776960, new Item.Settings().food(ModFoodComponents.JUICE_APPLE)));
-    public static final Item JUICE_PUMPKIN = register("juice_pumpkin", new JuiceItem(16762880, new Item.Settings().food(ModFoodComponents.JUICE_PUMPKIN)));
-    public static final Item JUICE_CARROT = register("juice_carrot", new JuiceItem(16751365, new Item.Settings().food(ModFoodComponents.JUICE_CARROT)));
-    public static final Item JUICE_TOMATO = register("juice_tomato", new JuiceItem(14435840, new Item.Settings().food(ModFoodComponents.JUICE_TOMATO)));
-    public static final Item JUICE_MELON = register("juice_melon", new JuiceItem(16711680, new Item.Settings().food(ModFoodComponents.JUICE_MELON)));
-    public static final Item JUICE_BERRIES = register("juice_berries", new JuiceItem(16711835, new Item.Settings().food(ModFoodComponents.JUICE_BERRIES)));
+    public static final Item JUICE_APPLE = register("juice_apple", new JuiceItem(0xFFFF00, new Item.Settings().food(ModFoodComponents.JUICE_APPLE)));
+    public static final Item JUICE_PUMPKIN = register("juice_pumpkin", new JuiceItem(0xFFC800, new Item.Settings().food(ModFoodComponents.JUICE_PUMPKIN)));
+    public static final Item JUICE_CARROT = register("juice_carrot", new JuiceItem(0xFF9B05, new Item.Settings().food(ModFoodComponents.JUICE_CARROT)));
+    public static final Item JUICE_TOMATO = register("juice_tomato", new JuiceItem(0xDC4600, new Item.Settings().food(ModFoodComponents.JUICE_TOMATO)));
+    public static final Item JUICE_MELON = register("juice_melon", new JuiceItem(0xFF0000, new Item.Settings().food(ModFoodComponents.JUICE_MELON)));
+    public static final Item JUICE_BERRIES = register("juice_berries", new JuiceItem(0xFF009B, new Item.Settings().food(ModFoodComponents.JUICE_BERRIES)));
     //  [MISC]
     public static final Item MUSIC_DISC_AFTERNOON = register("music_disc_afternoon", new DiscItem(0, ModSoundEvents.SOUND_AFTERNOON, new Item.Settings()));
 
@@ -99,6 +100,11 @@ public class ModItems
 
     private static Item register(String id, JuiceItem item) {
         JUICE_ITEMS.add(item);
+        return register(id, (Item)item);
+    }
+
+    private static Item register(String id, ModSeedItem item) {
+        SEED_ITEMS.add(item);
         return register(id, (Item)item);
     }
     
