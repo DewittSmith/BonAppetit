@@ -8,10 +8,13 @@
             "tag": "c:cheese"
         },
         {
-            "tag": "c:butter"
+            "tag": "c:cheese"
         },
         {
             "item": "bonappetit:cooking_pot"
+        },
+        {
+            "tag": "c:butter"
         }
     ],
     "result": {

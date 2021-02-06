@@ -62,9 +62,10 @@ public class ModItems
     public static final Item SEEDS_TOMATO = register("seeds_tomato", new ModSeedItem(0xec3c17, 0xa2412d, ModBlocks.TOMATOES, new Item.Settings(), 0.30f));
     public static final Item FRIED_EGG = register("fried_egg", new ModItem(new Item.Settings().food(ModFoodComponents.FRIED_EGG)));
     public static final Item PANCAKES = register("pancakes", new ModItem(new Item.Settings().food(ModFoodComponents.PANCAKES)));
-    public static final Item DONUT = register("donut", new ModItem(new Item.Settings().food(ModFoodComponents.DONUT)));
     public static final Item CHEESE = register("cheese", new ModItem(new Item.Settings().food(ModFoodComponents.CHEESE)));
     public static final Item CHEESE_CROQUETTES = register("cheese_croquettes", new ModItem(new Item.Settings().food(ModFoodComponents.CHEESE_CROQUETTES)));
+    public static final Item DONUT = register("donut", new ModItem(new Item.Settings().food(ModFoodComponents.DONUT)));
+    public static final Item CARAMEL = register("caramel", new ModItem(new Item.Settings().food(ModFoodComponents.CARAMEL)));
     public static final Item CHOCOLATE = register("chocolate", new ModItem(new Item.Settings().food(ModFoodComponents.CHOCOLATE)));
     public static final Item ONION_SOUP = register("onion_soup", new ModItem(new Item.Settings().food(ModFoodComponents.ONION_SOUP)));
     public static final Item CHEESE_SOUP = register("cheese_soup", new ModItem(new Item.Settings().food(ModFoodComponents.CHEESE_SOUP)));
