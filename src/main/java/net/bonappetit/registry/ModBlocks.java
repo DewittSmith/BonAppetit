@@ -19,7 +19,7 @@ import net.minecraft.util.registry.Registry;
 
 public class ModBlocks {
     public static final ArrayList<ModCropBlock> CROPS = new ArrayList<ModCropBlock>();
-
+    //  [BlOCKS]
     public static final Block HALITE_ORE = register("halite_ore", new ModOreBlock(FabricBlockSettings.of(Material.STONE).breakByTool(FabricToolTags.PICKAXES, 0).requiresTool().strength(2f, 3f).sounds(BlockSoundGroup.NETHER_GOLD_ORE)));
     public static final Block LIMESTONE = register("limestone", new Block(FabricBlockSettings.of(Material.STONE).breakByTool(FabricToolTags.PICKAXES, 0).requiresTool().strength(1f, 3).sounds(BlockSoundGroup.NETHERRACK)));
     public static final Block LIMESTONE_STAIRS = register("limestone_stairs", new StairBlock(LIMESTONE.getDefaultState(), AbstractBlock.Settings.copy(LIMESTONE)));

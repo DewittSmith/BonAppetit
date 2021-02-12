@@ -65,7 +65,9 @@ public class ModItems
     public static final Item CHEESE = register("cheese", new ModItem(new Item.Settings().food(ModFoodComponents.CHEESE)));
     public static final Item CHEESE_CROQUETTES = register("cheese_croquettes", new ModItem(new Item.Settings().food(ModFoodComponents.CHEESE_CROQUETTES)));
     public static final Item DONUT = register("donut", new ModItem(new Item.Settings().food(ModFoodComponents.DONUT)));
+    // public static final Item DONUT_CHOCOLATE = register("donut_chocolate", new ModItem(new Item.Settings().food(ModFoodComponents.DONUT_CHOCOLATE)));
     public static final Item CARAMEL = register("caramel", new ModItem(new Item.Settings().food(ModFoodComponents.CARAMEL)));
+    public static final Item CARAMEL_APPLE = register("caramel_apple", new ModItem(new Item.Settings().food(ModFoodComponents.CARAMEL_APPLE)));
     public static final Item CHOCOLATE = register("chocolate", new ModItem(new Item.Settings().food(ModFoodComponents.CHOCOLATE)));
     public static final Item ONION_SOUP = register("onion_soup", new ModItem(new Item.Settings().food(ModFoodComponents.ONION_SOUP)));
     public static final Item CHEESE_SOUP = register("cheese_soup", new ModItem(new Item.Settings().food(ModFoodComponents.CHEESE_SOUP)));
